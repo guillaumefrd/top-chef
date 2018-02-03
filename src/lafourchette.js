@@ -48,7 +48,7 @@ exports.searchAll = function(restaurants){
     })
   }, Promise.resolve([]))
   .then(function(restaurants){
-    jsonfile.writeFile('restaurants_found_list.json', restaurants, {spaces: 2}, function(err){
+    jsonfile.writeFile('output/restaurants_found_list.json', restaurants, {spaces: 2}, function(err){
       if(err){
         console.error(err);
       }

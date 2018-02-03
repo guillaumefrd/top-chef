@@ -51,7 +51,7 @@ exports.get = function() {
     })
   }, Promise.resolve([]))
   .then(function(results){
-    jsonfile.writeFile('restaurants_list.json', results, {spaces: 2}, function(err){
+    jsonfile.writeFile('output/restaurants_list.json', results, {spaces: 2}, function(err){
       if(err){
         console.error(err);
       }
