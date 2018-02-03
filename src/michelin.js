@@ -28,7 +28,7 @@ function scrapPage(url, result) {
         var currentRestaurant = {
           name: $('.poi_card-display-title', this).text().trim(),
           category: $('.poi_card-display-cuisines', this).text().replace(/;/g,',').trim(),
-          url: 'https://restaurant.michelin.fr' + $('a', this).attr('href')
+          urls: {michelin: 'https://restaurant.michelin.fr' + $('a', this).attr('href')}
         };
         result.push(currentRestaurant);
         countRestaurants++;
