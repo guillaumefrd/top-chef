@@ -30,6 +30,18 @@ function scrapPage(url, result) {
           category: $('.poi_card-display-cuisines', this).text().replace(/;/g,',').trim(),
           urls: {michelin: 'https://restaurant.michelin.fr' + $('a', this).attr('href')}
         };
+
+        //Michelin stars
+        if($('span', this).hasClass('guide-icon icon-mr icon-cotation3etoiles')){
+          currentRestaurant.stars = 3;
+        }
+        else if ($('span', this).hasClass('guide-icon icon-mr icon-cotation2etoiles')) {
+          currentRestaurant.stars = 2;
+        }
+        else if ($('span', this).hasClass('guide-icon icon-mr icon-cotation1etoile')) {
+          currentRestaurant.stars = 1;
+        }
+
         result.push(currentRestaurant);
         countRestaurants++;
       });
