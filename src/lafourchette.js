@@ -4,6 +4,7 @@ var jsonfile = require('jsonfile');
 
 var countFound = 0;
 
+//search if the restaurant is on lafourchette
 function search(restaurants, idx) {
   return new Promise(function(resolve, reject){
     var restaurant = restaurants[idx];
@@ -57,4 +58,15 @@ exports.searchAll = function(restaurants){
       console.log('Found ' + countFound + ' restaurants on lafourchette.com (out of ' + restaurants.length + ').')
     })
   })
+}
+
+//return the deal for the restaurant
+exports.getDeal = function(restaurant) {
+  //if the restaurant is on lafourchette
+  if(restaurant.found == true){
+
+  }
+  else {
+    console.log(restaurant.name + " was not found on lafourchette.")
+  }
 }

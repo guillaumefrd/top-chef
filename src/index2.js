@@ -1,6 +1,6 @@
-var lafourchette = require('./lafourchette');
+var michelin = require('./michelin');
 var jsonfile = require('jsonfile');
 
-jsonfile.readFile('output/restaurants_list.json', function(err, restaurants){
-  lafourchette.searchAll(restaurants);
+jsonfile.readFile('output/1_restaurants_list.json', function(err, restaurants){
+  michelin.getAllAddresses(restaurants);
 });

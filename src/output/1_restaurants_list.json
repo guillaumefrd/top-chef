@@ -64,6 +64,14 @@
     "stars": 2
   },
   {
+    "name": "La Tour des Vents",
+    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/28vws7k/la-tour-des-vents-monbazillac"
+    },
+    "stars": 1
+  },
+  {
     "name": "Les Pêcheurs",
     "category": "Méditerranéen, Poissons, Fruits de Mer, Gastronomique",
     "urls": {
@@ -72,7 +80,7 @@
     "stars": 1
   },
   {
-    "name": "La table de Franck Putelat",
+    "name": "La Table de Franck Putelat",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2e06z2s/la-table-de-franck-putelat-carcassonne"
@@ -93,23 +101,15 @@
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2bmu0gi/christophe-bacquie-le-castellet"
     },
-    "stars": 2
+    "stars": 3
   },
   {
-    "name": "La Tour des Vents",
-    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Végétarien",
+    "name": "Paul Bocuse",
+    "category": "Traditionnel, Classique, Gastronomique, Lyonnais",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/28vws7k/la-tour-des-vents-monbazillac"
+      "michelin": "https://restaurant.michelin.fr/29tbf1t/paul-bocuse-collonges-au-mont-dor"
     },
-    "stars": 1
-  },
-  {
-    "name": "Le Violon d'Ingres",
-    "category": "Traditionnel, Classique, Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2aa5u1w/le-violon-dingres-paris-07"
-    },
-    "stars": 1
+    "stars": 3
   },
   {
     "name": "Les Tablettes de Jean-Louis Nomicos",
@@ -120,12 +120,12 @@
     "stars": 1
   },
   {
-    "name": "Paul Bocuse",
-    "category": "Traditionnel, Classique, Gastronomique, Lyonnais",
+    "name": "Fanny Rey & Jonathan Wahid",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/29tbf1t/paul-bocuse-collonges-au-mont-dor"
+      "michelin": "https://restaurant.michelin.fr/389tiwsv/fanny-rey-jonathan-wahid-saint-remy-de-provence"
     },
-    "stars": 3
+    "stars": 1
   },
   {
     "name": "La Liégeoise",
@@ -184,30 +184,6 @@
     "stars": 1
   },
   {
-    "name": "Fanny Rey et Jonathan Wahid",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/389tiwsv/fanny-rey-et-jonathan-wahid-saint-remy-de-provence"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Assiette Champenoise",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2cliodi/assiette-champenoise-tinqueux"
-    },
-    "stars": 3
-  },
-  {
-    "name": "Le Bateau Ivre",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/28zgqpk/le-bateau-ivre-le-bourget-du-lac"
-    },
-    "stars": 2
-  },
-  {
     "name": "Le Moulin du Roc",
     "category": "Traditionnel, Classique, Gastronomique, Cuisines du Sud-Ouest",
     "urls": {
@@ -224,6 +200,14 @@
     "stars": 1
   },
   {
+    "name": "William Frachot",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2buprmi/william-frachot-dijon"
+    },
+    "stars": 2
+  },
+  {
     "name": "Le Chiberta",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
@@ -232,12 +216,12 @@
     "stars": 1
   },
   {
-    "name": "William Frachot",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "name": "L'Almandin",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2buprmi/william-frachot-dijon"
+      "michelin": "https://restaurant.michelin.fr/2as8r3a/lalmandin-saint-cyprien-plage"
     },
-    "stars": 2
+    "stars": 1
   },
   {
     "name": "Mathieu Pacaud - Histoires",
@@ -272,20 +256,20 @@
     "stars": 2
   },
   {
-    "name": "Les Fables de La Fontaine",
-    "category": "Cuisine Moderne, Créative, Poissons, Fruits de Mer, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2dq2sfa/les-fables-de-la-fontaine-paris-07"
-    },
-    "stars": 1
-  },
-  {
     "name": "Le Relais Bernard Loiseau",
     "category": "Traditionnel, Classique, Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2cur8yy/le-relais-bernard-loiseau-saulieu"
     },
     "stars": 2
+  },
+  {
+    "name": "Le Violon d'Ingres",
+    "category": "Traditionnel, Classique, Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2aa5u1w/le-violon-dingres-paris-07"
+    },
+    "stars": 1
   },
   {
     "name": "Le Quinzième - Cyril Lignac",
@@ -304,10 +288,18 @@
     "stars": 1
   },
   {
-    "name": "Château de Locguénolé",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Breton",
+    "name": "Assiette Champenoise",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2c0u6o8/chateau-de-locguenole-kervignac"
+      "michelin": "https://restaurant.michelin.fr/2cliodi/assiette-champenoise-tinqueux"
+    },
+    "stars": 3
+  },
+  {
+    "name": "Château de Pray",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2bcbfo0/chateau-de-pray-amboise"
     },
     "stars": 1
   },
@@ -320,10 +312,10 @@
     "stars": 1
   },
   {
-    "name": "Le Mascaret",
-    "category": "Cuisine Moderne, Créative, Cuisine Moderne, Créative, Gastronomique",
+    "name": "La Barbacane",
+    "category": "Traditionnel, Classique, Végétarien, Végétalien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2edzchf/le-mascaret-blainville-sur-mer"
+      "michelin": "https://restaurant.michelin.fr/292xja3/la-barbacane-carcassonne"
     },
     "stars": 1
   },
@@ -352,22 +344,6 @@
     "stars": 1
   },
   {
-    "name": "Domaine des Séquoias",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/28zo6i3/domaine-des-sequoias-ruy"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Le Taillevent",
-    "category": "Traditionnel, Classique, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ab9sgk/le-taillevent-paris-08"
-    },
-    "stars": 2
-  },
-  {
     "name": "Le Hittau",
     "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
     "urls": {
@@ -392,6 +368,14 @@
     "stars": 2
   },
   {
+    "name": "G.a. au Manoir de Rétival",
+    "category": "Cuisine Moderne, Créative, Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/9rnckmj/ga-au-manoir-de-retival-caudebec-en-caux"
+    },
+    "stars": 1
+  },
+  {
     "name": "Gill",
     "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
     "urls": {
@@ -401,7 +385,7 @@
   },
   {
     "name": "Le Magasin aux Vivres",
-    "category": "Gastronomique, Cuisine Moderne, Créative",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2dse7wh/le-magasin-aux-vivres-metz"
     },
@@ -416,12 +400,20 @@
     "stars": 1
   },
   {
-    "name": "G.a. au Manoir de Rétival",
-    "category": "Cuisine Moderne, Créative, Cuisine Moderne, Créative",
+    "name": "La Rotonde",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/9rnckmj/ga-au-manoir-de-retival-caudebec-en-caux"
+      "michelin": "https://restaurant.michelin.fr/29uqy46/la-rotonde-la-tour-de-salvagny"
     },
     "stars": 1
+  },
+  {
+    "name": "Relais de la Poste",
+    "category": "Traditionnel, Classique, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2c6dfrz/relais-de-la-poste-magescq"
+    },
+    "stars": 2
   },
   {
     "name": "La Dame de Pic",
@@ -448,10 +440,26 @@
     "stars": 1
   },
   {
-    "name": "Il Carpaccio – Le Royal Monceau Raffles Paris",
+    "name": "La Bonne Étape",
+    "category": "Provençal, Cuisine Moderne, Créative, Traditionnel, Classique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2bp5jf6/la-bonne-etape-chateau-arnoux"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Restaurant du Château",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2chv2z6/restaurant-du-chateau-chancelade"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Il Carpaccio",
     "category": "Italien, Végétarien, Végétalien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2fdi6av208/il-carpaccio-le-royal-monceau-raffles-paris-paris-08"
+      "michelin": "https://restaurant.michelin.fr/2fdi6av208/il-carpaccio-paris-08"
     },
     "stars": 1
   },
@@ -465,7 +473,7 @@
   },
   {
     "name": "Alain Llorca",
-    "category": "Cuisine Moderne, Créative, Provençal, Végétarien",
+    "category": "Provençal, Cuisine Moderne, Créative, Végétarien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2e4vi29/alain-llorca-la-colle-sur-loup"
     },
@@ -480,18 +488,18 @@
     "stars": 3
   },
   {
-    "name": "Pierre Orsi",
-    "category": "Traditionnel, Classique, Cuisine Moderne, Créative, Gastronomique",
+    "name": "Le Pavillon des Boulevards",
+    "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/29te7ik/pierre-orsi-lyon-06"
+      "michelin": "https://restaurant.michelin.fr/28y19tl/le-pavillon-des-boulevards-bordeaux"
     },
     "stars": 1
   },
   {
-    "name": "Les Fresques",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
+    "name": "Pierre Orsi",
+    "category": "Traditionnel, Classique, Cuisine Moderne, Créative, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ax5yy8/les-fresques-monestier"
+      "michelin": "https://restaurant.michelin.fr/29te7ik/pierre-orsi-lyon-06"
     },
     "stars": 1
   },
@@ -504,10 +512,10 @@
     "stars": 2
   },
   {
-    "name": "La Table du Lancaster",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "name": "Les Fresques",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2cfgrgv/la-table-du-lancaster-paris-08"
+      "michelin": "https://restaurant.michelin.fr/2ax5yy8/les-fresques-monestier"
     },
     "stars": 1
   },
@@ -520,6 +528,14 @@
     "stars": 1
   },
   {
+    "name": "Le Brittany",
+    "category": "Cuisine Moderne, Créative, Végétarien, Poissons, Fruits de Mer",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2cnbixn/le-brittany-roscoff"
+    },
+    "stars": 1
+  },
+  {
     "name": "La Maison de Bournissac",
     "category": "Méditerranéen, Cuisine Moderne, Créative, Provençal",
     "urls": {
@@ -528,18 +544,18 @@
     "stars": 1
   },
   {
-    "name": "L'Esprit de la Violette",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Provençal",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/4fzl6yel/lesprit-de-la-violette-aix-en-provence"
-    },
-    "stars": 1
-  },
-  {
     "name": "Les Bacchanales",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2en7eas/les-bacchanales-vence"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Le Quincangrogne",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/u1pjp7ux/le-quincangrogne-dampmart"
     },
     "stars": 1
   },
@@ -584,14 +600,6 @@
     "stars": 1
   },
   {
-    "name": "La Table de Patrick Raingeard",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2e2m5rq/la-table-de-patrick-raingeard-eze-bord-de-mer"
-    },
-    "stars": 1
-  },
-  {
     "name": "Ô Flaveurs",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
@@ -600,26 +608,26 @@
     "stars": 1
   },
   {
-    "name": "Le Charlemagne",
-    "category": "Cuisine Moderne, Créative, Japonais, Gastronomique",
+    "name": "La Table de Patrick Raingeard",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/28ulr0o/le-charlemagne-pernand-vergelesses"
+      "michelin": "https://restaurant.michelin.fr/2e2m5rq/la-table-de-patrick-raingeard-eze-bord-de-mer"
     },
     "stars": 1
+  },
+  {
+    "name": "Le Clarence",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/sntd30zx/le-clarence-paris-08"
+    },
+    "stars": 2
   },
   {
     "name": "Raphaël Vionnet",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/6pyhps6h/raphael-vionnet-thonon-les-bains"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Le Coquillage",
-    "category": "Poissons, Fruits de Mer",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/291q1xd/le-coquillage-saint-meloir-des-ondes"
     },
     "stars": 1
   },
@@ -640,20 +648,20 @@
     "stars": 1
   },
   {
+    "name": "Le Coquillage",
+    "category": "Poissons, Fruits de Mer",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/291q1xd/le-coquillage-saint-meloir-des-ondes"
+    },
+    "stars": 1
+  },
+  {
     "name": "L'Atelier d'Edmond",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2e1ykis/latelier-dedmond-val-disere"
     },
     "stars": 2
-  },
-  {
-    "name": "Château de Germigney",
-    "category": "Cuisine Moderne, Créative, Cuisine Régionale Française, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ck4s6b/chateau-de-germigney-port-lesney"
-    },
-    "stars": 1
   },
   {
     "name": "Maison Clovis",
@@ -680,22 +688,6 @@
     "stars": 1
   },
   {
-    "name": "La Grignotière",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/3tkmico/la-grignotiere-raismes"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Quartier Gourmand",
-    "category": "Traditionnel, Classique, Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2cyd01v/quartier-gourmand-tournus"
-    },
-    "stars": 1
-  },
-  {
     "name": "La Marelle",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
@@ -704,18 +696,18 @@
     "stars": 1
   },
   {
-    "name": "Château de Castel Novel",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
+    "name": "L'Essentiel",
+    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2bkusp7/chateau-de-castel-novel-varetz"
+      "michelin": "https://restaurant.michelin.fr/40jnqvq/lessentiel-deauville"
     },
     "stars": 1
   },
   {
-    "name": "Ithurria",
-    "category": "Traditionnel, Classique, Basque",
+    "name": "Loiseau rive Gauche",
+    "category": "Traditionnel, Classique, Gastronomique, Bourguignon",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2bbain5/ithurria-ainhoa"
+      "michelin": "https://restaurant.michelin.fr/2aaahmg/loiseau-rive-gauche-paris-07"
     },
     "stars": 1
   },
@@ -724,6 +716,14 @@
     "category": "Cuisine Moderne, Créative",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/28u9h7z/le-benaton-beaune"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Ithurria",
+    "category": "Traditionnel, Classique, Basque",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2bbain5/ithurria-ainhoa"
     },
     "stars": 1
   },
@@ -744,6 +744,14 @@
     "stars": 1
   },
   {
+    "name": "Chez Michèle",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/29pia6z/chez-michele-languimberg"
+    },
+    "stars": 1
+  },
+  {
     "name": "Auguste",
     "category": "Cuisine Moderne, Créative",
     "urls": {
@@ -752,12 +760,12 @@
     "stars": 1
   },
   {
-    "name": "Relais de la Poste",
-    "category": "Traditionnel, Classique, Gastronomique",
+    "name": "L'Auberge Basque",
+    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2c6dfrz/relais-de-la-poste-magescq"
+      "michelin": "https://restaurant.michelin.fr/2efx4u4/lauberge-basque-saint-pee-sur-nivelle"
     },
-    "stars": 2
+    "stars": 1
   },
   {
     "name": "Dyades au Domaine des Étangs",
@@ -776,80 +784,24 @@
     "stars": 1
   },
   {
-    "name": "La Bonne Étape",
-    "category": "Provençal, Cuisine Moderne, Créative, Traditionnel, Classique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2bp5jf6/la-bonne-etape-chateau-arnoux"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Chez Michèle",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/29pia6z/chez-michele-languimberg"
-    },
-    "stars": 1
-  },
-  {
-    "name": "L'Imaginaire",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2b2b69c/limaginaire-terrasson-lavilledieu"
-    },
-    "stars": 1
-  },
-  {
-    "name": "L'Auberge Basque",
-    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2efx4u4/lauberge-basque-saint-pee-sur-nivelle"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Le Domaine du Colombier",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ca9g6u/le-domaine-du-colombier-malataverne"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Château de Pray",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2bcbfo0/chateau-de-pray-amboise"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Restaurant du Château",
+    "name": "Château de Courban",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2chv2z6/restaurant-du-chateau-chancelade"
+      "michelin": "https://restaurant.michelin.fr/2emcabb/chateau-de-courban-courban"
     },
     "stars": 1
   },
   {
     "name": "Le Pergolèse",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "category": "Traditionnel, Classique, Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2aeinde/le-pergolese-paris-16"
     },
     "stars": 1
   },
   {
-    "name": "La Laiterie",
-    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/29r1pn2/la-laiterie-lambersart"
-    },
-    "stars": 1
-  },
-  {
     "name": "Loiseau des Vignes",
-    "category": "Traditionnel, Classique, Cuisine Régionale Française, Gastronomique",
+    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Cuisine Régionale Française",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2ef8rpt/loiseau-des-vignes-beaune"
     },
@@ -860,14 +812,6 @@
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/q8lel2a/en-marge-aureville"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Domaine d'Auriac",
-    "category": "Traditionnel, Classique, Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2bmf006/domaine-dauriac-carcassonne"
     },
     "stars": 1
   },
@@ -896,6 +840,14 @@
     "stars": 3
   },
   {
+    "name": "Domaine d'Auriac",
+    "category": "Traditionnel, Classique, Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2bmf006/domaine-dauriac-carcassonne"
+    },
+    "stars": 1
+  },
+  {
     "name": "Hostellerie du Rosenmeer",
     "category": "Cuisine Moderne, Créative, Bistronomique, Végétarien",
     "urls": {
@@ -908,14 +860,6 @@
     "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/sd2y8ik/initial-caen"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Julien Binz",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/yi79hbnh/julien-binz-ammerschwihr"
     },
     "stars": 1
   },
@@ -934,6 +878,22 @@
       "michelin": "https://restaurant.michelin.fr/2ab5qlx/alleno-paris-au-pavillon-ledoyen-paris-08"
     },
     "stars": 3
+  },
+  {
+    "name": "Julien Binz",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/yi79hbnh/julien-binz-ammerschwihr"
+    },
+    "stars": 1
+  },
+  {
+    "name": "L'Auberge de la Pomme",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2al6a9i/lauberge-de-la-pomme-les-damps"
+    },
+    "stars": 1
   },
   {
     "name": "Faventia",
@@ -960,14 +920,6 @@
     "stars": 1
   },
   {
-    "name": "L'Auberge de la Pomme",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2al6a9i/lauberge-de-la-pomme-les-damps"
-    },
-    "stars": 1
-  },
-  {
     "name": "Le M",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
@@ -976,12 +928,12 @@
     "stars": 1
   },
   {
-    "name": "Le Brittany",
-    "category": "Cuisine Moderne, Créative, Végétarien, Poissons, Fruits de Mer",
+    "name": "Anne de Bretagne",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Poissons, Fruits de Mer",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2cnbixn/le-brittany-roscoff"
+      "michelin": "https://restaurant.michelin.fr/2ciults/anne-de-bretagne-la-plaine-sur-mer"
     },
-    "stars": 1
+    "stars": 2
   },
   {
     "name": "Le Carrousel",
@@ -1000,18 +952,18 @@
     "stars": 2
   },
   {
-    "name": "Anne de Bretagne",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Poissons, Fruits de Mer",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ciults/anne-de-bretagne-la-plaine-sur-mer"
-    },
-    "stars": 2
-  },
-  {
     "name": "La Scène",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/1ore4aj2/la-scene-paris-08"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Le Prince Noir - Vivien Durand",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/4g00u3j8/le-prince-noir-vivien-durand-lormont"
     },
     "stars": 1
   },
@@ -1032,10 +984,10 @@
     "stars": 1
   },
   {
-    "name": "Le Prince Noir - Vivien Durand",
+    "name": "Le Baudelaire",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/4g00u3j8/le-prince-noir-vivien-durand-lormont"
+      "michelin": "https://restaurant.michelin.fr/2fdc0eg/le-baudelaire-paris-01"
     },
     "stars": 1
   },
@@ -1048,28 +1000,20 @@
     "stars": 2
   },
   {
-    "name": "Le Baudelaire",
-    "category": "Cuisine Moderne, Créative",
+    "name": "Le Taillevent",
+    "category": "Traditionnel, Classique, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2fdc0eg/le-baudelaire-paris-01"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Chantecler",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2a4echf50/chantecler-nice"
+      "michelin": "https://restaurant.michelin.fr/2ab9sgk/le-taillevent-paris-08"
     },
     "stars": 2
   },
   {
-    "name": "Entre Vigne et Garrigue",
-    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Gastronomique",
+    "name": "Le Chantecler",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2etuup9/entre-vigne-et-garrigue-pujaut"
+      "michelin": "https://restaurant.michelin.fr/2a4echf50/le-chantecler-nice"
     },
-    "stars": 1
+    "stars": 2
   },
   {
     "name": "Hostellerie la Montagne",
@@ -1081,9 +1025,17 @@
   },
   {
     "name": "Le Carmin",
-    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Gastronomique",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/8zb6c2d4/le-carmin-beaune"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Entre Vigne et Garrigue",
+    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2etuup9/entre-vigne-et-garrigue-pujaut"
     },
     "stars": 1
   },
@@ -1104,10 +1056,10 @@
     "stars": 1
   },
   {
-    "name": "Maximin Hellio",
+    "name": "L'O des Vignes",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/u945qtuv/maximin-hellio-deauville"
+      "michelin": "https://restaurant.michelin.fr/3fa7ojh3/lo-des-vignes-fuisse"
     },
     "stars": 1
   },
@@ -1120,14 +1072,6 @@
     "stars": 1
   },
   {
-    "name": "JAN",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/38z104i7/jan-nice"
-    },
-    "stars": 1
-  },
-  {
     "name": "Greuze",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
@@ -1136,12 +1080,28 @@
     "stars": 1
   },
   {
-    "name": "La Rotonde",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
+    "name": "Maximin Hellio",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/29uqy46/la-rotonde-la-tour-de-salvagny"
+      "michelin": "https://restaurant.michelin.fr/u945qtuv/maximin-hellio-deauville"
     },
     "stars": 1
+  },
+  {
+    "name": "JAN",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/38z104i7/jan-nice"
+    },
+    "stars": 1
+  },
+  {
+    "name": "L'Oasis",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/29v9df2/loasis-mandelieu-la-napoule"
+    },
+    "stars": 2
   },
   {
     "name": "Hostellerie Les Gorges de Pennafort",
@@ -1160,10 +1120,10 @@
     "stars": 1
   },
   {
-    "name": "La Madeleine",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "name": "Le Corot",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2azofoh/la-madeleine-sens"
+      "michelin": "https://restaurant.michelin.fr/2aiulws5/le-corot-ville-davray"
     },
     "stars": 1
   },
@@ -1176,18 +1136,10 @@
     "stars": 1
   },
   {
-    "name": "Le Corot",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
+    "name": "La Madeleine",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2aiulws5/le-corot-ville-davray"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Le Relais des Moines",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/28qae64/le-relais-des-moines-les-arcs"
+      "michelin": "https://restaurant.michelin.fr/2azofoh/la-madeleine-sens"
     },
     "stars": 1
   },
@@ -1196,6 +1148,14 @@
     "category": "Provençal, Végétarien, Végétalien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2cbq46s/la-bastide-de-moustiers-moustiers-sainte-marie"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Le Relais des Moines",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/28qae64/le-relais-des-moines-les-arcs"
     },
     "stars": 1
   },
@@ -1224,18 +1184,18 @@
     "stars": 1
   },
   {
-    "name": "Le Grand Cerf",
-    "category": "Traditionnel, Classique, Végétarien, Végétalien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2anw751/le-grand-cerf-montchenot"
-    },
-    "stars": 1
-  },
-  {
     "name": "Auberge Tiegezh",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/34milgg2/auberge-tiegezh-guer"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Le Grand Cerf",
+    "category": "Traditionnel, Classique, Végétarien, Végétalien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2anw751/le-grand-cerf-montchenot"
     },
     "stars": 1
   },
@@ -1256,18 +1216,18 @@
     "stars": 1
   },
   {
-    "name": "Le Pavillon des Boulevards",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/28y19tl/le-pavillon-des-boulevards-bordeaux"
-    },
-    "stars": 1
-  },
-  {
     "name": "Villa Archange",
     "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2f4ok2n/villa-archange-le-cannet"
+    },
+    "stars": 2
+  },
+  {
+    "name": "Domaine des Hauts de Loire",
+    "category": "Traditionnel, Classique, Cuisine Moderne, Créative, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2cedaza/domaine-des-hauts-de-loire-onzain"
     },
     "stars": 2
   },
@@ -1296,12 +1256,12 @@
     "stars": 1
   },
   {
-    "name": "Domaine de Rochevilaine",
-    "category": "Cuisine Moderne, Créative, Traditionnel, Classique",
+    "name": "Villa René Lalique",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2bij0t1/domaine-de-rochevilaine-billiers"
+      "michelin": "https://restaurant.michelin.fr/t645yf86/villa-rene-lalique-wingen-sur-moder"
     },
-    "stars": 1
+    "stars": 2
   },
   {
     "name": "La Villa Madie",
@@ -1312,12 +1272,12 @@
     "stars": 2
   },
   {
-    "name": "Villa René Lalique",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "name": "Domaine de Rochevilaine",
+    "category": "Cuisine Moderne, Créative, Traditionnel, Classique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/t645yf86/villa-rene-lalique-wingen-sur-moder"
+      "michelin": "https://restaurant.michelin.fr/2bij0t1/domaine-de-rochevilaine-billiers"
     },
-    "stars": 2
+    "stars": 1
   },
   {
     "name": "Château de Sully",
@@ -1336,14 +1296,6 @@
     "stars": 1
   },
   {
-    "name": "Le Montaigu",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Breton",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ecosxg/le-montaigu-missillac"
-    },
-    "stars": 1
-  },
-  {
     "name": "La Grand'Vigne",
     "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
     "urls": {
@@ -1352,10 +1304,18 @@
     "stars": 2
   },
   {
-    "name": "La Poste",
+    "name": "Maison Kieny",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2a22p1u/la-poste-riedisheim"
+      "michelin": "https://restaurant.michelin.fr/2a22p1u/maison-kieny-riedisheim"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Domaine des Séquoias",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/28zo6i3/domaine-des-sequoias-ruy"
     },
     "stars": 1
   },
@@ -1376,10 +1336,10 @@
     "stars": 2
   },
   {
-    "name": "Girardin",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "name": "Lasserre",
+    "category": "Traditionnel, Classique, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/xha7r0xl/girardin-colmar"
+      "michelin": "https://restaurant.michelin.fr/2abcqvg/lasserre-paris-08"
     },
     "stars": 1
   },
@@ -1400,20 +1360,12 @@
     "stars": 1
   },
   {
-    "name": "L'Arbre",
-    "category": "Cuisine Moderne, Créative, Poissons, Fruits de Mer, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ebs437/larbre-gruson"
-    },
-    "stars": 1
-  },
-  {
-    "name": "L'Oasis",
+    "name": "Girardin",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/29v9df2/loasis-mandelieu-la-napoule"
+      "michelin": "https://restaurant.michelin.fr/xha7r0xl/girardin-colmar"
     },
-    "stars": 2
+    "stars": 1
   },
   {
     "name": "Le Vivarais",
@@ -1432,14 +1384,6 @@
     "stars": 1
   },
   {
-    "name": "Le Gabriel",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/9sqrw32m/le-gabriel-paris-08"
-    },
-    "stars": 2
-  },
-  {
     "name": "L'Odas",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
@@ -1456,12 +1400,12 @@
     "stars": 3
   },
   {
-    "name": "Jérôme Brochot",
-    "category": "Cuisine Moderne, Créative, Cuisine Régionale Française",
+    "name": "Le Meurice Alain Ducasse",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/29zgkr3/jerome-brochot-montceau-les-mines"
+      "michelin": "https://restaurant.michelin.fr/2a7d9c1/le-meurice-alain-ducasse-paris-01"
     },
-    "stars": 1
+    "stars": 2
   },
   {
     "name": "Auberge du Cheval Blanc",
@@ -1472,8 +1416,16 @@
     "stars": 2
   },
   {
+    "name": "Jérôme Brochot",
+    "category": "Cuisine Moderne, Créative, Cuisine Régionale Française",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/29zgkr3/jerome-brochot-montceau-les-mines"
+    },
+    "stars": 1
+  },
+  {
     "name": "La Passagère",
-    "category": "Méditerranéen, Cuisine Moderne, Créative, Gastronomique",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/29odhbw/la-passagere-juan-les-pins"
     },
@@ -1504,12 +1456,12 @@
     "stars": 2
   },
   {
-    "name": "Domaine des Hauts de Loire",
-    "category": "Traditionnel, Classique, Cuisine Moderne, Créative, Végétarien",
+    "name": "Radio",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2cedaza/domaine-des-hauts-de-loire-onzain"
+      "michelin": "https://restaurant.michelin.fr/2bqajf6/radio-chamalieres"
     },
-    "stars": 2
+    "stars": 1
   },
   {
     "name": "L'Arnsbourg",
@@ -1520,12 +1472,12 @@
     "stars": 1
   },
   {
-    "name": "Radio",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
+    "name": "Le Gabriel",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2bqajf6/radio-chamalieres"
+      "michelin": "https://restaurant.michelin.fr/9sqrw32m/le-gabriel-paris-08"
     },
-    "stars": 1
+    "stars": 2
   },
   {
     "name": "Le Georges",
@@ -1552,20 +1504,12 @@
     "stars": 1
   },
   {
-    "name": "Restaurant Guy Savoy",
+    "name": "Guy Savoy",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2afciv4/restaurant-guy-savoy-paris-06"
+      "michelin": "https://restaurant.michelin.fr/2afciv4/guy-savoy-paris-06"
     },
     "stars": 3
-  },
-  {
-    "name": "Le Clarence",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/sntd30zx/le-clarence-paris-08"
-    },
-    "stars": 2
   },
   {
     "name": "Lucas Carton",
@@ -1576,10 +1520,10 @@
     "stars": 1
   },
   {
-    "name": "Octopus",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "name": "L'Arcane",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2dowdru/octopus-beziers"
+      "michelin": "https://restaurant.michelin.fr/vx40rloc/larcane-paris-18"
     },
     "stars": 1
   },
@@ -1600,6 +1544,14 @@
     "stars": 3
   },
   {
+    "name": "Auberge de la Tour",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/aewyhv0/auberge-de-la-tour-marcoles"
+    },
+    "stars": 1
+  },
+  {
     "name": "L'Amaryllis",
     "category": "Cuisine Moderne, Créative, Végétarien",
     "urls": {
@@ -1609,19 +1561,11 @@
   },
   {
     "name": "Hostellerie Jérôme",
-    "category": "Traditionnel, Classique, Cuisine Moderne, Créative, Poissons, Fruits de Mer",
+    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Poissons, Fruits de Mer",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2b5e0ez/hostellerie-jerome-la-turbie"
     },
-    "stars": 1
-  },
-  {
-    "name": "Lasserre",
-    "category": "Traditionnel, Classique, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2abcqvg/lasserre-paris-08"
-    },
-    "stars": 1
+    "stars": 2
   },
   {
     "name": "Le Millénaire",
@@ -1640,18 +1584,18 @@
     "stars": 2
   },
   {
-    "name": "Shang Palace",
-    "category": "Chinois, Gastronomique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2fcezsf205/shang-palace-paris-16"
-    },
-    "stars": 1
-  },
-  {
     "name": "Le Sénéchal",
     "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2cv1ygx/le-senechal-sauveterre-de-rouergue"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Shang Palace",
+    "category": "Chinois, Gastronomique, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2fcezsf205/shang-palace-paris-16"
     },
     "stars": 1
   },
@@ -1669,11 +1613,11 @@
     "urls": {
       "michelin": "https://restaurant.michelin.fr/29saut6/lamphitryon-lorient"
     },
-    "stars": 2
+    "stars": 1
   },
   {
     "name": "Loiseau des Ducs",
-    "category": "Cuisine Moderne, Créative, Bourguignon, Gastronomique",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2jd4ivca/loiseau-des-ducs-dijon"
     },
@@ -1685,11 +1629,27 @@
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2exgwy4/flaveur-nice"
     },
+    "stars": 2
+  },
+  {
+    "name": "Maison Rostang",
+    "category": "Traditionnel, Classique, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2afdah0/maison-rostang-paris-17"
+    },
+    "stars": 2
+  },
+  {
+    "name": "Le Domaine du Colombier",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2ca9g6u/le-domaine-du-colombier-malataverne"
+    },
     "stars": 1
   },
   {
     "name": "Les Terraillers",
-    "category": "Provençal, Cuisine Moderne, Créative, Traditionnel, Classique",
+    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/28x308q/les-terraillers-biot"
     },
@@ -1704,18 +1664,10 @@
     "stars": 1
   },
   {
-    "name": "Le Meurice Alain Ducasse",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "name": "Jean-Luc Tartarin",
+    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2a7d9c1/le-meurice-alain-ducasse-paris-01"
-    },
-    "stars": 2
-  },
-  {
-    "name": "Maison Rostang",
-    "category": "Traditionnel, Classique, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2afdah0/maison-rostang-paris-17"
+      "michelin": "https://restaurant.michelin.fr/2enmc29/jean-luc-tartarin-le-havre"
     },
     "stars": 2
   },
@@ -1728,18 +1680,10 @@
     "stars": 1
   },
   {
-    "name": "Jean-Luc Tartarin",
-    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
+    "name": "Le Jasmin",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisines du Sud-Ouest",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2enmc29/jean-luc-tartarin-le-havre"
-    },
-    "stars": 2
-  },
-  {
-    "name": "Passions et Gourmandises",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2e9lqme/passions-et-gourmandises-saint-benoit"
+      "michelin": "https://restaurant.michelin.fr/u6v6rb42/le-jasmin-saint-sylvestre-sur-lot"
     },
     "stars": 1
   },
@@ -1752,20 +1696,28 @@
     "stars": 2
   },
   {
-    "name": "Origine",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/3xmi14j/origine-rouen"
-    },
-    "stars": 1
-  },
-  {
     "name": "La Table de l'Espadon",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/yhoi9vry/la-table-de-lespadon-paris-01"
     },
     "stars": 2
+  },
+  {
+    "name": "Chapelle Saint-Martin",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2c4rgah/chapelle-saint-martin-nieul"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Origine",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3xmi14j/origine-rouen"
+    },
+    "stars": 1
   },
   {
     "name": "La Palme d'Or",
@@ -1776,6 +1728,14 @@
     "stars": 2
   },
   {
+    "name": "L'Escarbille",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2dtzs6c/lescarbille-meudon"
+    },
+    "stars": 1
+  },
+  {
     "name": "Régis et Jacques Marcon",
     "category": "Cuisine Moderne, Créative",
     "urls": {
@@ -1784,10 +1744,10 @@
     "stars": 3
   },
   {
-    "name": "TROISGROS",
+    "name": "Le Bois sans Feuilles",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2cm53gy/troisgros-ouches"
+      "michelin": "https://restaurant.michelin.fr/2cm53gy/le-bois-sans-feuilles-ouches"
     },
     "stars": 3
   },
@@ -1800,18 +1760,18 @@
     "stars": 1
   },
   {
-    "name": "Le P'tit Polyte",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2bufvvg87/le-ptit-polyte-les-deux-alpes"
-    },
-    "stars": 1
-  },
-  {
     "name": "Auberge de la Diligence",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/29ryt77/auberge-de-la-diligence-loire"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Le P'tit Polyte",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2bufvvg87/le-ptit-polyte-les-deux-alpes"
     },
     "stars": 1
   },
@@ -1832,6 +1792,14 @@
     "stars": 1
   },
   {
+    "name": "Antoine",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2euo0rk/antoine-paris-16"
+    },
+    "stars": 1
+  },
+  {
     "name": "Ô Saveurs",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
@@ -1843,23 +1811,15 @@
     "name": "La Mare aux Oiseaux",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2atvlv0/la-mare-aux-oiseaux-ile-de-fedrun"
+      "michelin": "https://restaurant.michelin.fr/2atvlv0/la-mare-aux-oiseaux-saint-joachim"
     },
     "stars": 1
   },
   {
-    "name": "Claude Darroze",
-    "category": "Traditionnel, Classique, Cuisine Régionale Française, Traditionnel, Classique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/29ped14/claude-darroze-langon"
-    },
-    "stars": 1
-  },
-  {
-    "name": "La Butte",
+    "name": "La Table de La Butte",
     "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2cj2itx/la-butte-plouider"
+      "michelin": "https://restaurant.michelin.fr/2cj2itx/la-table-de-la-butte-plouider"
     },
     "stars": 1
   },
@@ -1920,14 +1880,6 @@
     "stars": 1
   },
   {
-    "name": "Antoine",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2euo0rk/antoine-paris-16"
-    },
-    "stars": 1
-  },
-  {
     "name": "L'Épuisette",
     "category": "Poissons, Fruits de Mer, Cuisine Moderne, Créative, Végétarien",
     "urls": {
@@ -1952,18 +1904,18 @@
     "stars": 1
   },
   {
-    "name": "Cobéa",
-    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2adr3mu/cobea-paris-14"
-    },
-    "stars": 1
-  },
-  {
     "name": "Le Carré d'Alethius",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2fa4jx5/le-carre-dalethius-charmes-sur-rhone"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Cobéa",
+    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2adr3mu/cobea-paris-14"
     },
     "stars": 1
   },
@@ -2001,17 +1953,9 @@
   },
   {
     "name": "Château d'Adoménil",
-    "category": "Cuisine Moderne, Créative",
+    "category": "Traditionnel, Classique, Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2c5ztru/chateau-dadomenil-rehainviller"
-    },
-    "stars": 1
-  },
-  {
-    "name": "L'Inédit",
-    "category": "Cuisine Moderne, Créative, Traditionnel, Classique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2alhqgb/linedit-ponthierry"
+      "michelin": "https://restaurant.michelin.fr/2c5ztru/chateau-dadomenil-luneville"
     },
     "stars": 1
   },
@@ -2028,14 +1972,6 @@
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2brjniu/herve-busset-conques-en-rouergue"
-    },
-    "stars": 1
-  },
-  {
-    "name": "L'Escarbille",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2dtzs6c/lescarbille-meudon"
     },
     "stars": 1
   },
@@ -2064,6 +2000,14 @@
     "stars": 2
   },
   {
+    "name": "Le Belrose",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2ct3bc6/le-belrose-bertaud"
+    },
+    "stars": 1
+  },
+  {
     "name": "Les Prés d'Eugénie - Michel Guérard",
     "category": "Traditionnel, Classique, Gastronomique, Végétarien",
     "urls": {
@@ -2078,14 +2022,6 @@
       "michelin": "https://restaurant.michelin.fr/2ab8pfp/epicure-paris-08"
     },
     "stars": 3
-  },
-  {
-    "name": "Le Belrose",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ct3bc6/le-belrose-bertaud"
-    },
-    "stars": 1
   },
   {
     "name": "Les Jardins de l'Espadon",
@@ -2144,20 +2080,20 @@
     "stars": 1
   },
   {
-    "name": "La Galinette",
-    "category": "Cuisine Moderne, Créative, Poissons, Fruits de Mer, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ajskia/la-galinette-perpignan"
-    },
-    "stars": 1
-  },
-  {
     "name": "Le Grand Véfour",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2a7edmf/le-grand-vefour-paris-01"
     },
     "stars": 2
+  },
+  {
+    "name": "La Galinette",
+    "category": "Cuisine Moderne, Créative, Poissons, Fruits de Mer, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2ajskia/la-galinette-perpignan"
+    },
+    "stars": 1
   },
   {
     "name": "Thierry Drapeau",
@@ -2176,18 +2112,18 @@
     "stars": 1
   },
   {
-    "name": "L'Amphitryon",
-    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2b3pf5k/lamphitryon-colomiers"
-    },
-    "stars": 1
-  },
-  {
     "name": "Auberge de Clochemerle",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2dckc0s/auberge-de-clochemerle-vaux-en-beaujolais"
+    },
+    "stars": 1
+  },
+  {
+    "name": "L'Amphitryon",
+    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2b3pf5k/lamphitryon-colomiers"
     },
     "stars": 1
   },
@@ -2224,10 +2160,10 @@
     "stars": 1
   },
   {
-    "name": "Le Farçon",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
+    "name": "Le Mascaret",
+    "category": "Cuisine Moderne, Créative, Cuisine Moderne, Créative, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2dczscn/le-farcon-la-tania"
+      "michelin": "https://restaurant.michelin.fr/2edzchf/le-mascaret-blainville-sur-mer"
     },
     "stars": 1
   },
@@ -2240,10 +2176,10 @@
     "stars": 1
   },
   {
-    "name": "Kasbür",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "name": "Le Farçon",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2az3rad/kasbur-monswiller"
+      "michelin": "https://restaurant.michelin.fr/2dczscn/le-farcon-la-tania"
     },
     "stars": 1
   },
@@ -2256,18 +2192,18 @@
     "stars": 1
   },
   {
-    "name": "1131",
+    "name": "Kasbür",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2e4epe8/1131-la-bussiere-sur-ouche"
+      "michelin": "https://restaurant.michelin.fr/2az3rad/kasbur-monswiller"
     },
     "stars": 1
   },
   {
-    "name": "Le Saison",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "name": "1131",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ao631n/le-saison-saint-gregoire"
+      "michelin": "https://restaurant.michelin.fr/2e4epe8/1131-la-bussiere-sur-ouche"
     },
     "stars": 1
   },
@@ -2280,10 +2216,18 @@
     "stars": 1
   },
   {
-    "name": "Jérôme Nutile - Le Mas de Boudan",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "name": "Le Saison",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/cne1oxue/jerome-nutile-le-mas-de-boudan-nimes"
+      "michelin": "https://restaurant.michelin.fr/2ao631n/le-saison-saint-gregoire"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Le Domaine de la Corniche",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2cmxk0v/le-domaine-de-la-corniche-rolleboise"
     },
     "stars": 1
   },
@@ -2296,18 +2240,18 @@
     "stars": 1
   },
   {
-    "name": "Le Petit Hôtel du Grand Large",
-    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
+    "name": "Jérôme Nutile - Le Mas de Boudan",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2dy7rqn/le-petit-hotel-du-grand-large-kerhostin"
+      "michelin": "https://restaurant.michelin.fr/cne1oxue/jerome-nutile-le-mas-de-boudan-nimes"
     },
     "stars": 1
   },
   {
-    "name": "Le Patio",
+    "name": "Le Petit Hôtel du Grand Large",
     "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/28q4ohd/le-patio-arcachon"
+      "michelin": "https://restaurant.michelin.fr/2dy7rqn/le-petit-hotel-du-grand-large-portivy"
     },
     "stars": 1
   },
@@ -2321,9 +2265,17 @@
   },
   {
     "name": "Le Raisin",
-    "category": "Traditionnel, Classique, Cuisine Moderne, Créative, Cuisine Régionale Française",
+    "category": "Cuisine Moderne, Créative, Cuisine Régionale Française, Végétarien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2al9714/le-raisin-pont-de-vaux"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Le Patio",
+    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/28q4ohd/le-patio-arcachon"
     },
     "stars": 1
   },
@@ -2332,14 +2284,6 @@
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/29d8fg4/le-colombier-offranville"
-    },
-    "stars": 1
-  },
-  {
-    "name": "La Maison des Cariatides",
-    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/9ttskvw/la-maison-des-cariatides-dijon"
     },
     "stars": 1
   },
@@ -2384,6 +2328,14 @@
     "stars": 1
   },
   {
+    "name": "Xavier Mathieu",
+    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2c2u7lh/xavier-mathieu-joucas"
+    },
+    "stars": 1
+  },
+  {
     "name": "Aux Anges",
     "category": "Italien, Gastronomique, Végétarien",
     "urls": {
@@ -2424,14 +2376,6 @@
     "stars": 2
   },
   {
-    "name": "Jean Brouilly",
-    "category": "Traditionnel, Classique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2b22c2r/jean-brouilly-tarare"
-    },
-    "stars": 1
-  },
-  {
     "name": "La Voile",
     "category": "Cuisine Moderne, Créative, Tapas, Gastronomique",
     "urls": {
@@ -2457,11 +2401,11 @@
   },
   {
     "name": "Takao Takano",
-    "category": "Cuisine Moderne, Créative, Cuisine Moderne, Créative, Gastronomique",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/1fchzdq5/takao-takano-lyon-06"
     },
-    "stars": 1
+    "stars": 2
   },
   {
     "name": "La Table de la Bergerie",
@@ -2488,18 +2432,10 @@
     "stars": 1
   },
   {
-    "name": "La Table d'Uzès",
+    "name": "Les Ducs de Lorraine",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/1ss80t3t/la-table-duzes-uzes"
-    },
-    "stars": 1
-  },
-  {
-    "name": "AM par Alexandre Mazzia",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/4gq15sff/am-par-alexandre-mazzia-marseille-08"
+      "michelin": "https://restaurant.michelin.fr/29fq33a/les-ducs-de-lorraine-epinal"
     },
     "stars": 1
   },
@@ -2512,10 +2448,18 @@
     "stars": 3
   },
   {
-    "name": "Les Ducs de Lorraine",
+    "name": "La Table d'Uzès",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/29fq33a/les-ducs-de-lorraine-epinal"
+      "michelin": "https://restaurant.michelin.fr/1ss80t3t/la-table-duzes-uzes"
+    },
+    "stars": 1
+  },
+  {
+    "name": "AM par Alexandre Mazzia",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/4gq15sff/am-par-alexandre-mazzia-marseille-08"
     },
     "stars": 1
   },
@@ -2560,14 +2504,6 @@
     "stars": 1
   },
   {
-    "name": "Les Belles Perdrix de Troplong-Mondot",
-    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/9tthl9k/les-belles-perdrix-de-troplong-mondot-saint-emilion"
-    },
-    "stars": 1
-  },
-  {
     "name": "Le Cinq",
     "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
     "urls": {
@@ -2576,10 +2512,10 @@
     "stars": 3
   },
   {
-    "name": "La Bouitte",
+    "name": "René et Maxime Meilleur",
     "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2avet55/la-bouitte-saint-marcel"
+      "michelin": "https://restaurant.michelin.fr/2avet55/rene-et-maxime-meilleur-saint-martin-de-belleville"
     },
     "stars": 3
   },
@@ -2592,10 +2528,18 @@
     "stars": 1
   },
   {
-    "name": "Château de Noirieux",
-    "category": "Traditionnel, Classique, Gastronomique, Végétarien",
+    "name": "Le Clair de la Plume",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Provençal",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2bklbp3/chateau-de-noirieux-briollay"
+      "michelin": "https://restaurant.michelin.fr/2faahd5/le-clair-de-la-plume-grignan"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Les Fresques",
+    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/29gdnxp256n/les-fresques-evian-les-bains"
     },
     "stars": 1
   },
@@ -2609,7 +2553,7 @@
   },
   {
     "name": "Logis de la Cadène",
-    "category": "Traditionnel, Classique, Gastronomique, Cuisine Moderne, Créative",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/3kw7mh1/logis-de-la-cadene-saint-emilion"
     },
@@ -2624,8 +2568,16 @@
     "stars": 1
   },
   {
+    "name": "L'Écrin",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3503291/lecrin-paris-08"
+    },
+    "stars": 1
+  },
+  {
     "name": "Les Voiles d'Or",
-    "category": "Cuisine Moderne, Créative",
+    "category": "Poissons, Fruits de Mer, Cuisine Moderne, Créative",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2dtoif7/les-voiles-dor-dieppe"
     },
@@ -2656,10 +2608,10 @@
     "stars": 1
   },
   {
-    "name": "Le Pirate",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Corse",
+    "name": "SEPT",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/29a2qd7/le-pirate-erbalunga"
+      "michelin": "https://restaurant.michelin.fr/2b38wht/sept-toulouse"
     },
     "stars": 1
   },
@@ -2670,14 +2622,6 @@
       "michelin": "https://restaurant.michelin.fr/2f4bg71/la-pyramide-patrick-henriroux-vienne"
     },
     "stars": 2
-  },
-  {
-    "name": "Jin",
-    "category": "Japonais, Sushi, Poissons, Fruits de Mer",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/1t2b08px/jin-paris-01"
-    },
-    "stars": 1
   },
   {
     "name": "L'Archeste",
@@ -2712,6 +2656,14 @@
     "stars": 1
   },
   {
+    "name": "Le Saint-James",
+    "category": "Cuisine Moderne, Créative, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2bj8gr9/le-saint-james-bouliac"
+    },
+    "stars": 1
+  },
+  {
     "name": "Les Bories",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
@@ -2720,10 +2672,10 @@
     "stars": 1
   },
   {
-    "name": "Le Saint-James",
-    "category": "Cuisine Moderne, Créative, Végétarien",
+    "name": "Toya",
+    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2bj8gr9/le-saint-james-bouliac"
+      "michelin": "https://restaurant.michelin.fr/3vxe9bf/toya-faulquemont"
     },
     "stars": 1
   },
@@ -2734,14 +2686,6 @@
       "michelin": "https://restaurant.michelin.fr/am8q9hp/le-kintessence-courchevel-1850"
     },
     "stars": 2
-  },
-  {
-    "name": "Toya",
-    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/3vxe9bf/toya-faulquemont"
-    },
-    "stars": 1
   },
   {
     "name": "Le Clocher des Pères",
@@ -2761,7 +2705,7 @@
   },
   {
     "name": "Auberge de la Charme",
-    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
+    "category": "Cuisine Moderne, Créative, Cuisine Moderne, Créative, Végétarien",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/29dyqga/auberge-de-la-charme-prenois"
     },
@@ -2800,6 +2744,22 @@
     "stars": 1
   },
   {
+    "name": "Château Cordeillan-Bages",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2chq5p0/chateau-cordeillan-bages-pauillac"
+    },
+    "stars": 1
+  },
+  {
+    "name": "La Grignotière",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3tkmico/la-grignotiere-raismes"
+    },
+    "stars": 1
+  },
+  {
     "name": "Le Musigny",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
@@ -2814,6 +2774,14 @@
       "michelin": "https://restaurant.michelin.fr/3409276/1920-megeve"
     },
     "stars": 2
+  },
+  {
+    "name": "Copenhague",
+    "category": "Danois, Gastronomique, Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2916876/copenhague-paris-08"
+    },
+    "stars": 1
   },
   {
     "name": "La Cachette",
@@ -2840,18 +2808,18 @@
     "stars": 1
   },
   {
-    "name": "Le Clair de la Plume",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Provençal",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2faahd5/le-clair-de-la-plume-grignan"
-    },
-    "stars": 1
-  },
-  {
     "name": "La Matelote",
     "category": "Traditionnel, Classique, Poissons, Fruits de Mer, Cuisine Moderne, Créative",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/28yvb9u/la-matelote-boulogne-sur-mer"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Alan Geaam",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3045466/alan-geaam-paris-16"
     },
     "stars": 1
   },
@@ -2868,14 +2836,6 @@
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2d32mvv/le-france-villers-le-lac"
-    },
-    "stars": 1
-  },
-  {
-    "name": "L'Ambroisie",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2amtp5t/lambroisie-quimper"
     },
     "stars": 1
   },
@@ -2916,14 +2876,6 @@
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/29t3z0x/les-loges-lyon-05"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Xavier Mathieu",
-    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2c2u7lh/xavier-mathieu-joucas"
     },
     "stars": 1
   },
@@ -2976,18 +2928,18 @@
     "stars": 1
   },
   {
-    "name": "La Table du Gourmet",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2aosxv6/la-table-du-gourmet-riquewihr"
-    },
-    "stars": 1
-  },
-  {
     "name": "Le Gourmet de Sèze",
     "category": "Traditionnel, Classique, Gastronomique, Cuisine Moderne, Créative",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/29trkin/le-gourmet-de-seze-lyon-06"
+    },
+    "stars": 1
+  },
+  {
+    "name": "La Table du Gourmet",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2aosxv6/la-table-du-gourmet-riquewihr"
     },
     "stars": 1
   },
@@ -3024,6 +2976,14 @@
     "stars": 1
   },
   {
+    "name": "Jin",
+    "category": "Japonais, Sushi, Poissons, Fruits de Mer",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/1t2b08px/jin-paris-01"
+    },
+    "stars": 1
+  },
+  {
     "name": "Le Champ des Lunes",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
@@ -3040,18 +3000,18 @@
     "stars": 1
   },
   {
-    "name": "La Lorraine",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2bavyqh/la-lorraine-zoufftgen"
-    },
-    "stars": 1
-  },
-  {
     "name": "La Chèvre d'Or",
     "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Cuisine Régionale Française",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2bwkh5l/la-chevre-dor-eze"
+    },
+    "stars": 2
+  },
+  {
+    "name": "La Marine",
+    "category": "Cuisine Moderne, Créative, Poissons, Fruits de Mer, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/29n79hz/la-marine-lherbaudiere"
     },
     "stars": 2
   },
@@ -3064,12 +3024,12 @@
     "stars": 1
   },
   {
-    "name": "La Marine",
-    "category": "Cuisine Moderne, Créative, Poissons, Fruits de Mer, Gastronomique",
+    "name": "La Lorraine",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/29n79hz/la-marine-lherbaudiere"
+      "michelin": "https://restaurant.michelin.fr/2bavyqh/la-lorraine-zoufftgen"
     },
-    "stars": 2
+    "stars": 1
   },
   {
     "name": "La Maison dans le Parc",
@@ -3100,6 +3060,14 @@
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/9pbvgq6a/fontevraud-le-restaurant-fontevraud-labbaye"
+    },
+    "stars": 1
+  },
+  {
+    "name": "La Table de Manville",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/9wstvf9t/la-table-de-manville-les-baux-de-provence"
     },
     "stars": 1
   },
@@ -3136,14 +3104,6 @@
     "stars": 1
   },
   {
-    "name": "Auberge du Cellier",
-    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2a02pjj/auberge-du-cellier-montner"
-    },
-    "stars": 1
-  },
-  {
     "name": "Le Pavé d'Auge",
     "category": "Traditionnel, Classique",
     "urls": {
@@ -3152,10 +3112,18 @@
     "stars": 1
   },
   {
-    "name": "Sola",
-    "category": "Cuisine Moderne, Créative, Asiatique, Cuisine Régionale Française",
+    "name": "Auberge du Cellier",
+    "category": "Cuisine Moderne, Créative, Végétarien, Végétalien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/3yamflk/sola-paris-05"
+      "michelin": "https://restaurant.michelin.fr/2a02pjj/auberge-du-cellier-montner"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Louison",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3068881/louison-le-puy-sainte-reparade"
     },
     "stars": 1
   },
@@ -3176,6 +3144,14 @@
     "stars": 1
   },
   {
+    "name": "Auberge Grand'Maison",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2a2flya/auberge-grandmaison-mur-de-bretagne"
+    },
+    "stars": 1
+  },
+  {
     "name": "Elsa",
     "category": "Méditerranéen, Cuisine Moderne, Créative, Gastronomique",
     "urls": {
@@ -3192,10 +3168,10 @@
     "stars": 1
   },
   {
-    "name": "Le Domaine Saint Clair by Le W",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "name": "Mavrommatis",
+    "category": "Grec",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2861426/le-domaine-saint-clair-le-w-saint-clair"
+      "michelin": "https://restaurant.michelin.fr/2a95vol/mavrommatis-paris-05"
     },
     "stars": 1
   },
@@ -3208,18 +3184,10 @@
     "stars": 2
   },
   {
-    "name": "L'Escargot 1903",
-    "category": "Cuisine Moderne, Créative, Traditionnel, Classique",
+    "name": "Emporio Armani Ristorante",
+    "category": "Italien, Gastronomique, Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/5nipxmn/lescargot-1903-puteaux"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Hostellerie La Briqueterie",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2bvu2fn/hostellerie-la-briqueterie-vinay"
+      "michelin": "https://restaurant.michelin.fr/3044086/emporio-armani-ristorante-paris-06"
     },
     "stars": 1
   },
@@ -3232,12 +3200,12 @@
     "stars": 1
   },
   {
-    "name": "La Maison des Bois-Marc Veyrat",
+    "name": "La Maison des Bois - Marc Veyrat",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/8zgzs262/la-maison-des-bois-marc-veyrat-manigod"
     },
-    "stars": 2
+    "stars": 3
   },
   {
     "name": "Flaveurs",
@@ -3312,14 +3280,6 @@
     "stars": 2
   },
   {
-    "name": "La Table des Sens",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2f8y6g8/la-table-des-sens-villeneuve-sur-lot"
-    },
-    "stars": 1
-  },
-  {
     "name": "Dan B. - La Table de Ventabren",
     "category": "Cuisine Moderne, Créative, Gastronomique, Végétarien",
     "urls": {
@@ -3376,10 +3336,10 @@
     "stars": 1
   },
   {
-    "name": "Le Restaurant des Rois",
+    "name": "Restaurant des Rois",
     "category": "Cuisine Moderne, Créative, Méditerranéen, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2bh3p7k/le-restaurant-des-rois-beaulieu-sur-mer"
+      "michelin": "https://restaurant.michelin.fr/2bh3p7k/restaurant-des-rois-beaulieu-sur-mer"
     },
     "stars": 1
   },
@@ -3424,8 +3384,16 @@
     "stars": 1
   },
   {
+    "name": "L'Atelier Yssoirien",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/akc6ovv/latelier-yssoirien-issoire"
+    },
+    "stars": 1
+  },
+  {
     "name": "Maison Christian Étienne",
-    "category": "Traditionnel, Classique, Cuisine Moderne, Créative, Gastronomique",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Provençal",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/28s2o1u/maison-christian-etienne-avignon"
     },
@@ -3585,7 +3553,7 @@
   },
   {
     "name": "Hostellerie de Levernois",
-    "category": "Traditionnel, Classique, Gastronomique, Cuisine Régionale Française",
+    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/28updvu/hostellerie-de-levernois-levernois"
     },
@@ -3598,14 +3566,6 @@
       "michelin": "https://restaurant.michelin.fr/295zuzb/guy-lassausaie-chasselay"
     },
     "stars": 2
-  },
-  {
-    "name": "L'Aspérule",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/3yhcv2cw/lasperule-auxerre"
-    },
-    "stars": 1
   },
   {
     "name": "Le George",
@@ -3624,14 +3584,6 @@
     "stars": 1
   },
   {
-    "name": "Bras",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2c3ezsd/bras-laguiole"
-    },
-    "stars": 3
-  },
-  {
     "name": "Le Puits St-Jacques",
     "category": "Cuisine Moderne, Créative",
     "urls": {
@@ -3640,18 +3592,18 @@
     "stars": 2
   },
   {
-    "name": "L'Atelier de Joël Robuchon - Étoile",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2feca5y/latelier-de-joel-robuchon-etoile-paris-08"
-    },
-    "stars": 1
-  },
-  {
     "name": "La Table d'Olivier",
     "category": "Cuisine Moderne, Créative",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/5f24ty3/la-table-dolivier-brive-la-gaillarde"
+    },
+    "stars": 1
+  },
+  {
+    "name": "L'Atelier de Joël Robuchon - Étoile",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2feca5y/latelier-de-joel-robuchon-etoile-paris-08"
     },
     "stars": 1
   },
@@ -3667,7 +3619,7 @@
     "name": "L'Aquarelle",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2dk9wkt/laquarelle-montil"
+      "michelin": "https://restaurant.michelin.fr/2dk9wkt/laquarelle-breuillet"
     },
     "stars": 1
   },
@@ -3704,10 +3656,10 @@
     "stars": 1
   },
   {
-    "name": "Les Chênes Verts",
-    "category": "Traditionnel, Classique",
+    "name": "Terre-Mer",
+    "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2b4ne7u/les-chenes-verts-tourtour"
+      "michelin": "https://restaurant.michelin.fr/2f8kr60/terre-mer-auray"
     },
     "stars": 1
   },
@@ -3720,10 +3672,10 @@
     "stars": 1
   },
   {
-    "name": "Terre-Mer",
-    "category": "Cuisine Moderne, Créative",
+    "name": "Les Chênes Verts",
+    "category": "Traditionnel, Classique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2f8kr60/terre-mer-auray"
+      "michelin": "https://restaurant.michelin.fr/2b4ne7u/les-chenes-verts-tourtour"
     },
     "stars": 1
   },
@@ -3742,6 +3694,14 @@
       "michelin": "https://restaurant.michelin.fr/2e11xi8/saquana-honfleur"
     },
     "stars": 2
+  },
+  {
+    "name": "La Promenade",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/n3jledr/la-promenade-verfeil"
+    },
+    "stars": 1
   },
   {
     "name": "En Pleine Nature",
@@ -3764,6 +3724,14 @@
     "category": "Cuisine Moderne, Créative",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2b6s3ty/roscanvec-vannes"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Le Mas du Langoustier",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2c1rglq/le-mas-du-langoustier-hyeres"
     },
     "stars": 1
   },
@@ -3792,10 +3760,10 @@
     "stars": 2
   },
   {
-    "name": "Le Mas du Langoustier",
+    "name": "La Table de Chaintré",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2c1rglq/le-mas-du-langoustier-hyeres"
+      "michelin": "https://restaurant.michelin.fr/294fsc5/la-table-de-chaintre-chaintre"
     },
     "stars": 1
   },
@@ -3811,7 +3779,7 @@
     "name": "Le Bistrot de Lagarde",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/jfxt32k/le-bistrot-de-lagarde-villars"
+      "michelin": "https://restaurant.michelin.fr/jfxt32k/le-bistrot-de-lagarde-lagarde-dapt"
     },
     "stars": 1
   },
@@ -3824,20 +3792,12 @@
     "stars": 1
   },
   {
-    "name": "Itinéraires",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/3tszvle/itineraires-paris-05"
-    },
-    "stars": 1
-  },
-  {
-    "name": "La Table de Chaintré",
+    "name": "Michel Trama",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/294fsc5/la-table-de-chaintre-chaintre"
+      "michelin": "https://restaurant.michelin.fr/2ckuncq/michel-trama-puymirol"
     },
-    "stars": 1
+    "stars": 2
   },
   {
     "name": "Le Chiquito",
@@ -3856,26 +3816,18 @@
     "stars": 1
   },
   {
-    "name": "Michel Trama",
+    "name": "Le Cercle",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ckuncq/michel-trama-puymirol"
+      "michelin": "https://restaurant.michelin.fr/9trxkaz/le-cercle-bourges"
     },
-    "stars": 2
+    "stars": 1
   },
   {
     "name": "Pertica",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/3u9bmm3c/pertica-vendome"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Le Cercle",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/9trxkaz/le-cercle-bourges"
     },
     "stars": 1
   },
@@ -3904,14 +3856,6 @@
     "stars": 1
   },
   {
-    "name": "Septime",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/3xrgyvn/septime-paris-11"
-    },
-    "stars": 1
-  },
-  {
     "name": "Le Lièvre Gourmand",
     "category": "Cuisine Moderne, Créative",
     "urls": {
@@ -3920,18 +3864,18 @@
     "stars": 1
   },
   {
-    "name": "La Ribaudière",
+    "name": "Septime",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/29o99va/la-ribaudiere-bourg-charente"
+      "michelin": "https://restaurant.michelin.fr/3xrgyvn/septime-paris-11"
     },
     "stars": 1
   },
   {
-    "name": "Chez Charles",
+    "name": "La Ribaudière",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/29a76uy/chez-charles-lumio"
+      "michelin": "https://restaurant.michelin.fr/29o99va/la-ribaudiere-bourg-charente"
     },
     "stars": 1
   },
@@ -3968,6 +3912,14 @@
     "stars": 1
   },
   {
+    "name": "La Coquerie",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/9tuayn9/la-coquerie-sete"
+    },
+    "stars": 1
+  },
+  {
     "name": "Le Favre d'Anne",
     "category": "Cuisine Moderne, Créative",
     "urls": {
@@ -3992,14 +3944,6 @@
     "stars": 1
   },
   {
-    "name": "La Coquerie",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/9tuayn9/la-coquerie-sete"
-    },
-    "stars": 1
-  },
-  {
     "name": "La Table d'Eugène",
     "category": "Cuisine Moderne, Créative",
     "urls": {
@@ -4008,18 +3952,18 @@
     "stars": 1
   },
   {
-    "name": "La Rastègue",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2dfjaik/la-rastegue-bormes-les-mimosas"
-    },
-    "stars": 1
-  },
-  {
     "name": "Le Bon Accueil",
     "category": "Cuisine Moderne, Créative",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/29v2jed/le-bon-accueil-malbuisson"
+    },
+    "stars": 1
+  },
+  {
+    "name": "La Rastègue",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2dfjaik/la-rastegue-bormes-les-mimosas"
     },
     "stars": 1
   },
@@ -4049,7 +3993,7 @@
   },
   {
     "name": "Auberge du Dun",
-    "category": "Cuisine Moderne, Créative",
+    "category": "Traditionnel, Classique, Cuisine Moderne, Créative",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/28z3n7r/auberge-du-dun-le-bourg-dun"
     },
@@ -4067,7 +4011,7 @@
     "name": "La Marande",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2dcnkds/la-marande-mirande"
+      "michelin": "https://restaurant.michelin.fr/2dcnkds/la-marande-montbellet"
     },
     "stars": 1
   },
@@ -4096,14 +4040,6 @@
     "stars": 1
   },
   {
-    "name": "David Toutain",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ei5hub/david-toutain-paris-07"
-    },
-    "stars": 1
-  },
-  {
     "name": "Le Belvédère",
     "category": "Cuisine Moderne, Créative",
     "urls": {
@@ -4112,18 +4048,18 @@
     "stars": 1
   },
   {
-    "name": "La Ciboulette",
+    "name": "David Toutain",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/28pfvrl/la-ciboulette-annecy"
+      "michelin": "https://restaurant.michelin.fr/2ei5hub/david-toutain-paris-07"
     },
     "stars": 1
   },
   {
-    "name": "L'Alexandrin",
-    "category": "Cuisine Moderne, Créative",
+    "name": "L'Atlantide 1874 - Maison Guého",
+    "category": "Cuisine Moderne, Créative, Traditionnel, Classique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/29tjvzr/lalexandrin-lyon-03"
+      "michelin": "https://restaurant.michelin.fr/2a32200/latlantide-1874-maison-gueho-nantes"
     },
     "stars": 1
   },
@@ -4136,10 +4072,18 @@
     "stars": 1
   },
   {
-    "name": "L'Atlantide 1874 - Maison Guého",
+    "name": "Le Moulin d'Alotz",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/28x0rz3/le-moulin-dalotz-alotz"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Le Cerf",
     "category": "Cuisine Moderne, Créative, Traditionnel, Classique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2a32200/latlantide-1874-maison-gueho-nantes"
+      "michelin": "https://restaurant.michelin.fr/2c74pw3/le-cerf-marlenheim"
     },
     "stars": 1
   },
@@ -4168,6 +4112,14 @@
     "stars": 1
   },
   {
+    "name": "L'Aubergade",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/28olvn9/laubergade-dury"
+    },
+    "stars": 1
+  },
+  {
     "name": "La Table des Cordeliers",
     "category": "Cuisine Moderne, Créative",
     "urls": {
@@ -4184,42 +4136,10 @@
     "stars": 1
   },
   {
-    "name": "Le Moulin d'Alotz",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/28x0rz3/le-moulin-dalotz-alotz"
-    },
-    "stars": 1
-  },
-  {
-    "name": "L'Aubergade",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/28olvn9/laubergade-dury"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Le Cerf",
-    "category": "Cuisine Moderne, Créative, Traditionnel, Classique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2c74pw3/le-cerf-marlenheim"
-    },
-    "stars": 1
-  },
-  {
     "name": "Le Prieuré",
     "category": "Cuisine Moderne, Créative",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/28od0rp/le-prieure-ambierle"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Jérémy Galvan",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/3plxd2e/jeremy-galvan-lyon-05"
     },
     "stars": 1
   },
@@ -4232,6 +4152,14 @@
     "stars": 1
   },
   {
+    "name": "Au 14 Février",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2f8f1gn/au-14-fevrier-lyon-05"
+    },
+    "stars": 1
+  },
+  {
     "name": "Côté Jardin",
     "category": "Cuisine Moderne, Créative",
     "urls": {
@@ -4240,10 +4168,10 @@
     "stars": 1
   },
   {
-    "name": "Au 14 Février",
-    "category": "Cuisine Moderne, Créative",
+    "name": "Jérémy Galvan",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2f8f1gn/au-14-fevrier-lyon-05"
+      "michelin": "https://restaurant.michelin.fr/3plxd2e/jeremy-galvan-lyon-05"
     },
     "stars": 1
   },
@@ -4256,10 +4184,10 @@
     "stars": 1
   },
   {
-    "name": "La Robe",
-    "category": "Cuisine Moderne, Créative",
+    "name": "Lou Cigalon-Maison Martin",
+    "category": "Cuisine Moderne, Créative, Gastronomique, Cuisine Régionale Française",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/3ffqpazw/la-robe-montaigu"
+      "michelin": "https://restaurant.michelin.fr/41vsxiz/lou-cigalon-maison-martin-valbonne"
     },
     "stars": 1
   },
@@ -4280,26 +4208,18 @@
     "stars": 1
   },
   {
+    "name": "La Robe",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3ffqpazw/la-robe-montaigu"
+    },
+    "stars": 1
+  },
+  {
     "name": "Château Blanchard",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/ou4s65x/chateau-blanchard-chazelles-sur-lyon"
-    },
-    "stars": 1
-  },
-  {
-    "name": "La Fourchette du Printemps",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2f4nbgd/la-fourchette-du-printemps-paris-17"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Auberge Le Prieuré",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2dl7htu/auberge-le-prieure-moirax"
     },
     "stars": 1
   },
@@ -4312,6 +4232,14 @@
     "stars": 1
   },
   {
+    "name": "La Fourchette du Printemps",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2f4nbgd/la-fourchette-du-printemps-paris-17"
+    },
+    "stars": 1
+  },
+  {
     "name": "À Contre Sens",
     "category": "Cuisine Moderne, Créative",
     "urls": {
@@ -4320,10 +4248,34 @@
     "stars": 1
   },
   {
+    "name": "Table - Bruno Verjus",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3ffvej5j/table-bruno-verjus-paris-12"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Auberge Le Prieuré",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2dl7htu/auberge-le-prieure-moirax"
+    },
+    "stars": 1
+  },
+  {
     "name": "Haut Bonheur de la Table",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/6274yuk/haut-bonheur-de-la-table-cassel"
+    },
+    "stars": 1
+  },
+  {
+    "name": "L'Éveil des Sens",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2f77d7t/leveil-des-sens-mayenne"
     },
     "stars": 1
   },
@@ -4344,10 +4296,10 @@
     "stars": 1
   },
   {
-    "name": "Au 14 Février",
+    "name": "Val d'Auge",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/3ffziwd6/au-14-fevrier-platre-durand"
+      "michelin": "https://restaurant.michelin.fr/29rcoot/val-dauge-bondues"
     },
     "stars": 1
   },
@@ -4368,50 +4320,10 @@
     "stars": 1
   },
   {
-    "name": "Val d'Auge",
+    "name": "Au 14 Février",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/29rcoot/val-dauge-bondues"
-    },
-    "stars": 1
-  },
-  {
-    "name": "L'Éveil des Sens",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2f77d7t/leveil-des-sens-mayenne"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Yam'Tcha",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ewldde/yamtcha-paris-01"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Apicius",
-    "category": "Traditionnel, Classique, Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2affgmi/apicius-paris-08"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Palm Beach",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/299lkwi1/palm-beach-ajaccio"
-    },
-    "stars": 1
-  },
-  {
-    "name": "La Bonne Auberge",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/29ifnwu/la-bonne-auberge-stiring-wendel"
+      "michelin": "https://restaurant.michelin.fr/3ffziwd6/au-14-fevrier-platre-durand"
     },
     "stars": 1
   },
@@ -4424,10 +4336,50 @@
     "stars": 1
   },
   {
+    "name": "Palm Beach",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/299lkwi1/palm-beach-ajaccio"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Yam'Tcha",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2ewldde/yamtcha-paris-01"
+    },
+    "stars": 1
+  },
+  {
+    "name": "La Bonne Auberge",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/29ifnwu/la-bonne-auberge-stiring-wendel"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Apicius",
+    "category": "Traditionnel, Classique, Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2affgmi/apicius-paris-08"
+    },
+    "stars": 1
+  },
+  {
     "name": "Henri et Joseph",
     "category": "Cuisine Moderne, Créative",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2e29zv6/henri-et-joseph-lorient"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Les Pyrénées",
+    "category": "Traditionnel, Classique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2cqrobi/les-pyrenees-saint-jean-pied-de-port"
     },
     "stars": 1
   },
@@ -4448,18 +4400,18 @@
     "stars": 1
   },
   {
-    "name": "Goûts et Couleurs",
-    "category": "Cuisine Moderne, Créative",
+    "name": "Château de la Treyne",
+    "category": "Traditionnel, Classique",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2apmv0v/gouts-et-couleurs-rodez"
+      "michelin": "https://restaurant.michelin.fr/2c38ubh/chateau-de-la-treyne-lacave"
     },
     "stars": 1
   },
   {
-    "name": "Les Pyrénées",
-    "category": "Traditionnel, Classique",
+    "name": "Intuition",
+    "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2cqrobi/les-pyrenees-saint-jean-pied-de-port"
+      "michelin": "https://restaurant.michelin.fr/3ffxvs0j/intuition-saint-lo"
     },
     "stars": 1
   },
@@ -4470,22 +4422,6 @@
       "michelin": "https://restaurant.michelin.fr/6pz7edt2/le-neuvieme-art-lyon-06"
     },
     "stars": 2
-  },
-  {
-    "name": "Château de la Treyne",
-    "category": "Traditionnel, Classique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2c38ubh/chateau-de-la-treyne-lacave"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Bacon",
-    "category": "Poissons, Fruits de Mer",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/28pts95/bacon-antibes"
-    },
-    "stars": 1
   },
   {
     "name": "Gavroche",
@@ -4504,20 +4440,20 @@
     "stars": 1
   },
   {
-    "name": "Château de Montreuil",
-    "category": "Traditionnel, Classique, Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2cav5n8/chateau-de-montreuil-montreuil"
-    },
-    "stars": 1
-  },
-  {
     "name": "St-James Paris",
     "category": "Cuisine Moderne, Créative",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/9qoy529/st-james-paris-paris-16"
     },
     "stars": 1
+  },
+  {
+    "name": "Le Montgomerie",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/29b4lr4/le-montgomerie-courchevel-1850"
+    },
+    "stars": 2
   },
   {
     "name": "Le Château de Sable",
@@ -4552,12 +4488,12 @@
     "stars": 1
   },
   {
-    "name": "Le Montgomerie",
-    "category": "Cuisine Moderne, Créative",
+    "name": "Transparence \"La Table de Patrick Fréchin\"",
+    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Végétarien",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/29b4lr4/le-montgomerie-courchevel-1850"
+      "michelin": "https://restaurant.michelin.fr/2jtf0iqj/transparence-la-table-de-patrick-frechin-nancy"
     },
-    "stars": 2
+    "stars": 1
   },
   {
     "name": "Clovis",
@@ -4592,6 +4528,30 @@
     "stars": 1
   },
   {
+    "name": "L'Hysope",
+    "category": "Cuisine Moderne, Créative, Cuisine Régionale Française",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/hq8ezzf7/lhysope-la-jarrie"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Étude",
+    "category": "Cuisine Moderne, Créative, Traditionnel, Classique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3g8qf775/etude-paris-16"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Château de Codignat",
+    "category": "Cuisine Moderne, Créative, Végétarien",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2c4fx70/chateau-de-codignat-bort-letang"
+    },
+    "stars": 1
+  },
+  {
     "name": "L'Aromate",
     "category": "Cuisine Moderne, Créative",
     "urls": {
@@ -4616,22 +4576,6 @@
     "stars": 1
   },
   {
-    "name": "Pierre Gagnaire pour les Airelles",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2el1ne0170/pierre-gagnaire-pour-les-airelles-courchevel-1850"
-    },
-    "stars": 2
-  },
-  {
-    "name": "Château de Codignat",
-    "category": "Cuisine Moderne, Créative, Végétarien",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2c4fx70/chateau-de-codignat-bort-letang"
-    },
-    "stars": 1
-  },
-  {
     "name": "L'Océan",
     "category": "Cuisine Moderne, Créative",
     "urls": {
@@ -4640,10 +4584,10 @@
     "stars": 1
   },
   {
-    "name": "Au Fil du Temps",
+    "name": "Baumanière 1850",
     "category": "Cuisine Moderne, Créative",
     "urls": {
-      "michelin": "https://restaurant.michelin.fr/2ewhx87/au-fil-du-temps-grasse"
+      "michelin": "https://restaurant.michelin.fr/2f4vonu/baumaniere-1850-courchevel-1850"
     },
     "stars": 1
   },
@@ -4664,18 +4608,18 @@
     "stars": 1
   },
   {
-    "name": "Baumanière 1850",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2f4vonu/baumaniere-1850-courchevel-1850"
-    },
-    "stars": 1
-  },
-  {
     "name": "La Marine",
     "category": "Cuisine Moderne, Créative",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2bgh04f/la-marine-carteret"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Azimut",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2elahg3/azimut-le-praz"
     },
     "stars": 1
   },
@@ -4688,22 +4632,6 @@
     "stars": 1
   },
   {
-    "name": "Rodolphe",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/j9cof0s1/rodolphe-rouen"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Azimut",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2elahg3/azimut-courchevel-1850"
-    },
-    "stars": 1
-  },
-  {
     "name": "Le Grand Restaurant - Jean-François Piège",
     "category": "Cuisine Moderne, Créative, Gastronomique",
     "urls": {
@@ -4712,10 +4640,50 @@
     "stars": 2
   },
   {
+    "name": "Rodolphe",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/j9cof0s1/rodolphe-rouen"
+    },
+    "stars": 1
+  },
+  {
+    "name": "L'Émulsion",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/5jdkm0u/lemulsion-saint-alban-de-roche"
+    },
+    "stars": 1
+  },
+  {
     "name": "Le Clos St-Pierre",
     "category": "Provençal",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2aqst5c/le-clos-st-pierre-saint-pons"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Le Pousse-Pied",
+    "category": "Cuisine Moderne, Créative, Poissons, Fruits de Mer, Bistrot",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/376ocf6f/le-pousse-pied-la-tranche-sur-mer"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Garopapilles",
+    "category": "Cuisine Moderne, Créative, Gastronomique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3wsi04j3/garopapilles-bordeaux"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Auberge du Paradis",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2armsjm/auberge-du-paradis-platre-durand"
     },
     "stars": 1
   },
@@ -4736,26 +4704,26 @@
     "stars": 1
   },
   {
-    "name": "Manoir de Lan-Kerellec",
-    "category": "Poissons, Fruits de Mer, Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2cys3lz/manoir-de-lan-kerellec-trebeurden"
-    },
-    "stars": 1
-  },
-  {
-    "name": "Auberge du Paradis",
-    "category": "Cuisine Moderne, Créative",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2armsjm/auberge-du-paradis-platre-durand"
-    },
-    "stars": 1
-  },
-  {
     "name": "Château de Vauchoux",
     "category": "Traditionnel, Classique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2alwjjs/chateau-de-vauchoux-vauchoux"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Le Marcq",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2dkifdh/le-marcq-marcq-en-baroeul"
+    },
+    "stars": 1
+  },
+  {
+    "name": "U Santa Marina",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2e7dmcj/u-santa-marina-porto-vecchio"
     },
     "stars": 1
   },
@@ -4784,10 +4752,50 @@
     "stars": 1
   },
   {
+    "name": "Pertinence",
+    "category": "Cuisine Moderne, Créative, Traditionnel, Classique",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/5sermc3/pertinence-paris-07"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Le Chateaubriand",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2e6jtym/le-chateaubriand-paris-11"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Jérôme Feck",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/294k5c0/jerome-feck-chalons-en-champagne"
+    },
+    "stars": 1
+  },
+  {
     "name": "Pierre Reboul",
     "category": "Cuisine Moderne, Créative, Traditionnel, Classique",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/9pmxzh3/pierre-reboul-aix-en-provence"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Quinsou",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/a22cmkwd/quinsou-paris-06"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Ken Kawasaki",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/ximkypex/ken-kawasaki-paris-18"
     },
     "stars": 1
   },
@@ -4804,6 +4812,14 @@
     "category": "Cuisine Moderne, Créative",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2851396/akrame-paris-08"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Le Grand Cap",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2851511/le-grand-cap-leucate"
     },
     "stars": 1
   },
@@ -4828,6 +4844,78 @@
     "category": "Poissons, Fruits de Mer",
     "urls": {
       "michelin": "https://restaurant.michelin.fr/2852181/divellec-paris-07"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Jean Sulpice",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/2cwj3qb/jean-sulpice-talloires-montmin"
+    },
+    "stars": 2
+  },
+  {
+    "name": "La Merise",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3614676/la-merise-laubach"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Jean Chauvel",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3614956/jean-chauvel-boulogne-billancourt"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Montée",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3615586/montee-paris-14"
+    },
+    "stars": 1
+  },
+  {
+    "name": "L'Auberge de Bagatelle",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3616226/lauberge-de-bagatelle-le-mans"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Ima",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3616751/ima-rennes"
+    },
+    "stars": 1
+  },
+  {
+    "name": "Comice",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3616836/comice-paris-16"
+    },
+    "stars": 1
+  },
+  {
+    "name": "La Table d'Hôtes - Le Quatrième Mur",
+    "category": "Cuisine Moderne, Créative",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3623606/la-table-dhotes-le-quatrieme-mur-bordeaux"
+    },
+    "stars": 1
+  },
+  {
+    "name": "La Table de la Ferme",
+    "category": "Corse",
+    "urls": {
+      "michelin": "https://restaurant.michelin.fr/3623651/la-table-de-la-ferme-sartene"
     },
     "stars": 1
   }
