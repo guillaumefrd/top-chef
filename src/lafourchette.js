@@ -55,3 +55,71 @@ exports.searchAll = function(restaurants){
     })
   })
 }
+
+function getDeal(restaurants, idx) {
+  return new Promise(function(resolve, reject){
+    var restaurant = restaurants[idx];
+
+    if('isFound' in restaurant){
+      var url = 'https://m.lafourchette.com/api/restaurant/' + restaurant.id + '/sale-type';
+      console.log('[' + (idx+1) + '/' + restaurants.length + '] calling ', url);
+      request({
+        method: 'GET',
+        url: url
+      }, function(err, response, body){
+        if(err){
+          console.error(err);
+          return reject(err);
+        }
+
+        var results = JSON.parse(body);
+        restaurant.promotions = [];
+        results.forEach(function(promotion){
+          if(promotion.title != 'Simple booking'){
+            if('exclusions' in promotion){
+              restaurant.promotions.push({
+                title: promotion.title,
+                exclusions: promotion.exclusions,
+                is_menu: promotion.is_menu,
+                is_special_offer: promotion.is_special_offer
+              });
+            }
+            else {
+              restaurant.promotions.push({
+                title: promotion.title,
+                is_menu: promotion.is_menu,
+                is_special_offer: promotion.is_special_offer
+              });
+            }
+          }
+        });
+
+        setTimeout(function(){
+          return resolve(restaurants);
+        }, 0);
+      })
+    }
+    else {
+      console.log('[' + (idx+1) + '/' + restaurants.length + '] not found on lafourchette');
+      setTimeout(function(){
+        return resolve(restaurants);
+      }, 0);
+    }
+  })
+}
+
+exports.getAllDeals = function(restaurants){
+  restaurants.reduce(function(prev, elt, idx, array){
+    return prev.then(function(restaurants){
+      return getDeal(array, idx);
+    })
+  }, Promise.resolve([]))
+  .then(function(restaurants){
+    jsonfile.writeFile('output/4_restaurants_promotions_list.json', restaurants, {spaces: 2}, function(err){
+      if(err){
+        console.error(err);
+      }
+      console.log('***** json done *****');
+    })
+  })
+}
