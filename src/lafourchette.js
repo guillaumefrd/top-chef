@@ -123,3 +123,53 @@ exports.getAllDeals = function(restaurants){
     })
   })
 }
+
+function getImage(restaurants, idx){
+  return new Promise(function(resolve, reject){
+    var restaurant = restaurants[idx];
+
+    if('isFound' in restaurant){
+      var url = 'https://m.lafourchette.com/api/restaurant/' + restaurant.id;
+      console.log('[' + (idx+1) + '/' + restaurants.length + '] calling ', url);
+      request({
+        method: 'GET',
+        url: url
+      }, function(err, response, body){
+        if(err){
+          console.error(err);
+          return reject(err);
+        }
+
+        var result = JSON.parse(body);
+        restaurant.image_url = result.images.main[result.images.main.length-1].url;
+        restaurant.urls.lafourchette = 'https://www.lafourchette.com/restaurant/' + result.name.replace(/ /g, '-').replace(/--+/g, '-') + '/' + result.id;
+
+        setTimeout(function(){
+          return resolve(restaurants);
+        }, 0);
+      })
+    }
+    else {
+      console.log('[' + (idx+1) + '/' + restaurants.length + '] not found on lafourchette');
+      setTimeout(function(){
+        return resolve(restaurants);
+      }, 0);
+    }
+  })
+}
+
+exports.getAllImages = function(restaurants){
+  restaurants.reduce(function(prev, elt, idx, array){
+    return prev.then(function(restaurants){
+      return getImage(array, idx);
+    })
+  }, Promise.resolve([]))
+  .then(function(restaurants){
+    jsonfile.writeFile('output/5_final_restaurants_list.json', restaurants, {spaces: 2}, function(err){
+      if(err){
+        console.error(err);
+      }
+      console.log('***** json done *****');
+    })
+  })
+}
