@@ -4,36 +4,32 @@ var jsonfile = require('jsonfile');
 
 var countFound = 0;
 
-//search if the restaurant is on lafourchette
-function search(restaurants, idx) {
+//search the restaurant in lafourchette and get the id
+function getId(restaurants, idx) {
   return new Promise(function(resolve, reject){
     var restaurant = restaurants[idx];
-    //remove the accents on the url -> fixed some errors
-    var url = 'https://www.lafourchette.com/search-refine/' + restaurant.name.replace(/ /g, '%20').normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+    //normalize = remove the accents on the url
+    var url = 'https://m.lafourchette.com/api/restaurant-prediction?name=' + restaurant.name.replace(/ /g, '_').replace(/&|°/g, '').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
     console.log('[' + (idx+1) + '/' + restaurants.length + '] calling ', url);
     request({
       method: 'GET',
       url: url
-    }, function(err, response, body) {
-      if (err) {
+    }, function(err, response, body){
+      if(err){
         console.error(err);
         return reject(err);
       }
 
-      $ = cheerio.load(body);
-
-      //if the restaurant is found on lafourchette
-      if ($('#results').hasClass('resultContainer')) {
-        console.log("found: " + restaurant.name);
-        restaurant.found = true;
-        restaurant.urls.lafourchette = 'https://www.lafourchette.com' + $('a', '.resultItem-name').attr('href');
-        restaurant.address = $('.resultItem-address').first().text().trim()
-        countFound++;
-      } else {
-        console.log("not found: " + restaurant.name);
-        restaurant.found = false;
-      }
+      var results = JSON.parse(body);
+      results.forEach(function(restaurant_found){
+        if(restaurant.address.postalCode == restaurant_found.address.postal_code){
+          //we found the right restaurant
+          restaurant.id = restaurant_found.id;
+          restaurant.isFound = true;
+          countFound++;
+        }
+      });
 
       setTimeout(function(){
         return resolve(restaurants)
@@ -45,11 +41,11 @@ function search(restaurants, idx) {
 exports.searchAll = function(restaurants){
   restaurants.reduce(function(prev, elt, idx, array){
     return prev.then(function(restaurants){
-      return search(array, idx);
+      return getId(array, idx);
     })
   }, Promise.resolve([]))
   .then(function(restaurants){
-    jsonfile.writeFile('output/restaurants_found_list.json', restaurants, {spaces: 2}, function(err){
+    jsonfile.writeFile('output/3_restaurants_found_list.json', restaurants, {spaces: 2}, function(err){
       if(err){
         console.error(err);
       }
@@ -58,15 +54,4 @@ exports.searchAll = function(restaurants){
       console.log('Found ' + countFound + ' restaurants on lafourchette.com (out of ' + restaurants.length + ').')
     })
   })
-}
-
-//return the deal for the restaurant
-exports.getDeal = function(restaurant) {
-  //if the restaurant is on lafourchette
-  if(restaurant.found == true){
-
-  }
-  else {
-    console.log(restaurant.name + " was not found on lafourchette.")
-  }
 }
