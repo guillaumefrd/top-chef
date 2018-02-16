@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-var restos = [
+//var restos = [];
+/*
   {
     "name": "Le 39V",
     "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Gastronomique",
@@ -187,15 +188,33 @@ var restos = [
     "image_url": "https://u.tfstatic.com/restaurant_photos/822/38822/169/664/paloma-restaurant-05449.jpg"
   }
 ];
+*/
 
 
 class Grid extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      restaurants: restos,
+      restaurants: this.props.restaurants
     }
   }
+
+  favorite(id) {
+    document.getElementById(id).getElementsByClassName('material-icons')[0].style.color = "#ff0000";
+  }
+
+  title(restaurant) {
+    var res = restaurant.name;
+    for(var i=0; i<restaurant.stars; i++){
+      res += " *";
+    }
+    return res;
+  }
+
+  city(cityName) {
+    return cityName.charAt(0).toUpperCase() + cityName.slice(1).toLowerCase().replace(/\d/g,'')
+  }
+
   renderPromotions(promotions) {
     var res = [];
     promotions.forEach(function(promo){
@@ -206,12 +225,15 @@ class Grid extends React.Component {
 
   renderCard(restaurant) {
     return (
-      <div class="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-shadow--8dp">
+      <div class="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-shadow--8dp" id={restaurant.id}>
         <figure class="mdl-card__media">
           <img src={restaurant.image_url} alt=""/>
         </figure>
         <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text">{restaurant.name}</h2>
+          <h2 class="mdl-card__title-text">{this.title(restaurant)}</h2>
+        </div>
+        <div class="mdl-card__supporting-text bold">
+          {this.city(restaurant.address.city)}
         </div>
         <div class="mdl-card__supporting-text">
           {this.renderPromotions(restaurant.promotions)}
@@ -219,7 +241,7 @@ class Grid extends React.Component {
         <div class="mdl-card__actions mdl-card--border">
           <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" target="_blank" href={restaurant.urls.lafourchette}>More informations</a>
           <div class="mdl-layout-spacer"></div>
-          <button class="mdl-button mdl-button--icon mdl-button--colored"><i class="material-icons">favorite</i></button>
+          <button class="mdl-button mdl-button--icon mdl-button--colored" onClick={() => this.favorite(restaurant.id)}><i class="material-icons">favorite</i></button>
           <button class="mdl-button mdl-button--icon mdl-button--colored"><i class="material-icons">share</i></button>
         </div>
       </div>
@@ -243,7 +265,32 @@ class Grid extends React.Component {
 
 // ========================================
 
-ReactDOM.render(
-  <Grid />,
-  document.getElementById('grid-cards')
-);
+// get all the restaurants
+fetch('src/5_final_restaurants_list.json')
+  .then(function(restaurants){
+    restaurants = restaurants.json();
+    return restaurants;
+  })
+  .then(function(restaurants){
+    var restaurants_with_deals = [];
+    for(var i in restaurants){
+      // get only the restaurants with special promotions
+      if ('promotions' in restaurants[i] && restaurants[i].promotions.length > 0){
+        var promotions_with_special_offer = [];
+        for(var j in restaurants[i].promotions){
+          if (restaurants[i].promotions[j].is_special_offer === true){
+            promotions_with_special_offer.push(restaurants[i].promotions[j]);
+          }
+        }
+        if(promotions_with_special_offer.length > 0) {
+          restaurants[i].promotions = promotions_with_special_offer;
+          restaurants_with_deals.push(restaurants[i]);
+        }
+      }
+    }
+
+    ReactDOM.render(
+      <Grid restaurants={restaurants_with_deals}/>,
+      document.getElementById('grid-cards')
+    )
+  })

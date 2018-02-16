@@ -29,3 +29,9 @@ body {
 .mdl-card__supporting-text {
   margin-bottom: 3em;
 }
+
+.mdl-card__supporting-text.bold {
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 0;
+}
