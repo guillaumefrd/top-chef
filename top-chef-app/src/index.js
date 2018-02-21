@@ -2,195 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-//var restos = [];
-/*
-  {
-    "name": "Le 39V",
-    "category": "Cuisine Moderne, Créative, Traditionnel, Classique, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2fd19do/le-39v-paris-08",
-      "lafourchette": "https://www.lafourchette.com/restaurant/Le-39V-Paris-Frédéric-Vardon/26112"
-    },
-    "stars": 1,
-    "address": {
-      "street": "39 Avenue George V",
-      "postalCode": "75008",
-      "city": "Paris 08"
-    },
-    "id": "26112",
-    "isFound": true,
-    "promotions": [
-      {
-        "title": "Menu Saint-Valentin avec une coupe de Champagne Lenoble 245,00 €",
-        "exclusions": "Price per person. Drinks not included.  14/02 diner.",
-        "is_menu": true,
-        "is_special_offer": false
-      },
-      {
-        "title": "Menu Saint-Valentin avec accords mets et vins 340,00 €",
-        "exclusions": "Price per person. Drinks included.  14/02 diner.",
-        "is_menu": true,
-        "is_special_offer": false
-      },
-      {
-        "title": "Menu tout Champagne 'Amour de Deutz' 2008 315,00 €",
-        "exclusions": "Price per person. Drinks included.  14/02 diner.",
-        "is_menu": true,
-        "is_special_offer": false
-      },
-      {
-        "title": "Menu Mardis Gourmands 135€ le soir",
-        "exclusions": "Price per person.",
-        "is_menu": true,
-        "is_special_offer": false
-      },
-      {
-        "title": "Menu Mardis Gourmands 85€ le midi",
-        "exclusions": "Price per person.",
-        "is_menu": true,
-        "is_special_offer": false
-      }
-    ],
-    "image_url": "https://u.tfstatic.com/restaurant_photos/112/26112/169/664/39-v-frederic-vardon-vue-panoramique-de-la-terrasse-ccc6a.jpg"
-  },
-  {
-    "name": "Agapé",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2eo1t6h/agape-paris-17",
-      "lafourchette": "https://www.lafourchette.com/restaurant/Agapé/1923"
-    },
-    "stars": 1,
-    "address": {
-      "street": "51 rue Jouffroy-d'Abbans",
-      "postalCode": "75017",
-      "city": "Paris 17"
-    },
-    "id": "1923",
-    "isFound": true,
-    "promotions": [
-      {
-        "title": "Menu Prestige 72€",
-        "exclusions": "By booking this set menu, you will be able to order either this set menu or \"à la carte\" if you change your mind.",
-        "is_menu": true,
-        "is_special_offer": false
-      },
-      {
-        "title": "€250.00 Valentine's Day set menu",
-        "exclusions": "Price per person. Drinks not included.  14/02 diner.",
-        "is_menu": true,
-        "is_special_offer": false
-      },
-      {
-        "title": "Menu Gourmands 185€",
-        "exclusions": "By booking this set menu, you will be able to order either this set menu or \"à la carte\" if you change your mind.",
-        "is_menu": true,
-        "is_special_offer": false
-      }
-    ],
-    "image_url": "https://u.tfstatic.com/restaurant_photos/923/1923/169/664/agape-l-interieur-97075.jpg"
-  },
-  {
-    "name": "Le Restaurant",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2cfem9h/le-restaurant-paris-06",
-      "lafourchette": "https://www.lafourchette.com/restaurant/Leroy's-Restaurant/297223"
-    },
-    "stars": 1,
-    "address": {
-      "street": "13 rue des Beaux-Arts",
-      "postalCode": "75006",
-      "city": "Paris 06"
-    },
-    "id": "297223",
-    "isFound": true,
-    "promotions": [
-      {
-        "title": "-30% off the \"à la carte\" menu!",
-        "exclusions": "Set menus and drinks not included",
-        "is_menu": false,
-        "is_special_offer": true
-      },
-      {
-        "title": "Brunch 35€",
-        "is_menu": true,
-        "is_special_offer": false
-      }
-    ],
-    "image_url": "https://u.tfstatic.com/restaurant_photos/223/297223/169/664/leroy-s-restaurant-leroy-s-bar-restaurant-rez-de-chaussee-06a55.jpg"
-  },
-  {
-    "name": "Numéro 3",
-    "category": "Cuisine Moderne, Créative, Gastronomique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/2dnmje9/numero-3-le-tremblay-sur-mauldre",
-      "lafourchette": "https://www.lafourchette.com/restaurant/Restaurant-Numéro-3/26601"
-    },
-    "stars": 1,
-    "address": {
-      "street": "3 rue du Général de Gaulle",
-      "postalCode": "78490",
-      "city": "Le Tremblay-sur-Mauldre"
-    },
-    "id": "26601",
-    "isFound": true,
-    "promotions": [
-      {
-        "title": "Menu 125€",
-        "is_menu": true,
-        "is_special_offer": false
-      },
-      {
-        "title": "Menu 85€",
-        "exclusions": "By booking this set menu, you will be able to order either this set menu or \"à la carte\" if you change your mind.",
-        "is_menu": true,
-        "is_special_offer": false
-      },
-      {
-        "title": "Menu 65€",
-        "exclusions": "By booking this set menu, you will be able to order either this set menu or \"à la carte\" if you change your mind.",
-        "is_menu": true,
-        "is_special_offer": false
-      },
-      {
-        "title": "Menu  49€",
-        "exclusions": "By booking this set menu, you will be able to order either this set menu or \"à la carte\" if you change your mind.",
-        "is_menu": true,
-        "is_special_offer": false
-      }
-    ],
-    "image_url": "https://u.tfstatic.com/restaurant_photos/601/26601/169/664/0b0ba1fad99f909c7ea767198c2ec778.jpg"
-  },
-  {
-    "name": "Paloma",
-    "category": "Cuisine Moderne, Créative, Gastronomique, Traditionnel, Classique",
-    "urls": {
-      "michelin": "https://restaurant.michelin.fr/280mq6yn/paloma-mougins",
-      "lafourchette": "https://www.lafourchette.com/restaurant/Paloma/38822"
-    },
-    "stars": 2,
-    "address": {
-      "street": "47 Avenue du Moulin de la Croix",
-      "postalCode": "06250",
-      "city": "Mougins"
-    },
-    "id": "38822",
-    "isFound": true,
-    "promotions": [
-      {
-        "title": "€180.00 Valentine's Day set menu",
-        "exclusions": "Price per person. Drinks not included.  14/02 lunch and diner.",
-        "is_menu": true,
-        "is_special_offer": false
-      }
-    ],
-    "image_url": "https://u.tfstatic.com/restaurant_photos/822/38822/169/664/paloma-restaurant-05449.jpg"
-  }
-];
-*/
-
-
 class Grid extends React.Component {
   constructor(props) {
     super(props);
@@ -263,15 +74,102 @@ class Grid extends React.Component {
   }
 }
 
+class FormControl extends React.Component {
+  constructor(props, context) {
+    super(props, context);
+    this.handleChange = this.handleChange.bind(this);
+    this.state = {
+      restaurants: this.props.restaurants
+    }
+  }
+
+  handleChange(e) {
+    var newElement = document.createElement('div');
+    newElement.setAttribute('id', 'temp');
+
+    if(e.target.value != 'All'){
+      getRestaurantsWithSpecialOfferFilterByStars(this.state.restaurants, e.target.value)
+      .then(function(restaurants_new){
+
+        if(restaurants_new.length === 0){
+          var row = document.createElement('div');
+          row.setAttribute('class', 'row');
+          newElement.appendChild(row);
+
+          var col = document.createElement('div');
+          col.setAttribute('class', 'col-lg-12 text-center');
+          row.appendChild(col);
+
+          var h3 = document.createElement('h3');
+          h3.setAttribute('class', 'section-subheading');
+          var content = document.createTextNode("Sorry, we didn't find any deal with this filter");
+          h3.appendChild(content);
+          col.appendChild(h3);
+
+        } else {
+          ReactDOM.render(
+            <Grid restaurants={restaurants_new}/>,
+            newElement
+          )
+        }
+      })
+    } else {
+      ReactDOM.render(
+        <Grid restaurants={this.state.restaurants}/>,
+        newElement
+      )
+    }
+    var oldElement = document.getElementById('grid-cards');
+    var parentDiv = oldElement.parentNode;
+    parentDiv.replaceChild(newElement, oldElement);
+    newElement.setAttribute('id', 'grid-cards');
+  }
+
+  render() {
+    return (
+      <div class="col col-lg-2">
+        <form>
+          <div class="form-group">
+            <label for="starsFormControl">Filter by Michelin-Stars</label>
+            <select class="form-control" id="starsFormControl" onChange={this.handleChange}>
+              <option>All</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    );
+  }
+}
+
+
+
 // ========================================
 
-// get all the restaurants
-fetch('src/5_final_restaurants_list.json')
-  .then(function(restaurants){
-    restaurants = restaurants.json();
-    return restaurants;
-  })
-  .then(function(restaurants){
+function getRestaurantsWithSpecialOffer(restaurants){
+  var restaurants_with_deals = [];
+  for(var i in restaurants){
+    // get only the restaurants with special promotions
+    if ('promotions' in restaurants[i] && restaurants[i].promotions.length > 0){
+      var promotions_with_special_offer = [];
+      for(var j in restaurants[i].promotions){
+        if (restaurants[i].promotions[j].is_special_offer === true){
+          promotions_with_special_offer.push(restaurants[i].promotions[j]);
+        }
+      }
+      if(promotions_with_special_offer.length > 0) {
+        restaurants[i].promotions = promotions_with_special_offer;
+        restaurants_with_deals.push(restaurants[i]);
+      }
+    }
+  }
+  return restaurants_with_deals;
+}
+
+function getRestaurantsWithSpecialOfferFilterByStars(restaurants, stars){
+  return new Promise(function(resolve, reject){
     var restaurants_with_deals = [];
     for(var i in restaurants){
       // get only the restaurants with special promotions
@@ -282,13 +180,28 @@ fetch('src/5_final_restaurants_list.json')
             promotions_with_special_offer.push(restaurants[i].promotions[j]);
           }
         }
-        if(promotions_with_special_offer.length > 0) {
+        if(promotions_with_special_offer.length > 0 && restaurants[i].stars == stars) {
           restaurants[i].promotions = promotions_with_special_offer;
           restaurants_with_deals.push(restaurants[i]);
         }
       }
     }
+    return resolve(restaurants_with_deals);
+  })
+}
 
+// get all the restaurants
+fetch('src/5_final_restaurants_list.json')
+  .then(function(restaurants){
+    restaurants = restaurants.json();
+    return restaurants;
+  })
+  .then(function(restaurants){
+    var restaurants_with_deals = getRestaurantsWithSpecialOffer(restaurants);
+
+    ReactDOM.render(
+      <FormControl restaurants={restaurants_with_deals}/>, document.getElementById('filter')
+    )
     ReactDOM.render(
       <Grid restaurants={restaurants_with_deals}/>,
       document.getElementById('grid-cards')
