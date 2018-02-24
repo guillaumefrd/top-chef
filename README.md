@@ -2,6 +2,20 @@
 
 > Eat well and cheaper than usually
 
+## What you need to know
+
+Top Chef is a school project that is described bellow. 
+
+**If you want to see directly the result, just click [here](https://guillaumefrd.github.io/top-chef/top-chef-app/build/).**
+
+Otherwise, you can visit the repository to see what I did. 
+
+You will find all the **server-side** work, including some **web scraping** in the folder **src**.
+
+The **React** application is in the **top-chef-app** folder. You will find more information about it on the README inside the folder. 
+
+## Instructions
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
