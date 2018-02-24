@@ -67,8 +67,13 @@ class Grid extends React.Component {
     });
 
     return (
-      <div class="mdl-grid">
-        {tab}
+      <div>
+        <div class="col-lg-12 text-center">
+          <h3 class="section-subheading">{this.state.restaurants.length} deals found</h3>
+        </div>
+        <div class="mdl-grid">
+          {tab}
+        </div>
       </div>
     );
   }
@@ -127,7 +132,7 @@ class FormControl extends React.Component {
 
   render() {
     return (
-      <div class="col col-lg-2">
+      <div class="col-12">
         <form>
           <div class="form-group">
             <label for="starsFormControl">Filter by Michelin-Stars</label>
