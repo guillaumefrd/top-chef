@@ -18,7 +18,7 @@
 
 ### NetBeans ###
 nbproject/private/
-build/
+# build/
 nbbuild/
 dist/
 nbdist/
@@ -46,7 +46,7 @@ coverage
 .grunt
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+# build/Release
 
 # Dependency directory
 # Commenting this out is preferred by some people, see
@@ -96,7 +96,7 @@ Temporary Items
 ## Specific to RubyMotion:
 .dat*
 .repl_history
-build/
+# build/
 
 ## Documentation cache and generated files:
 /.yardoc/
@@ -178,7 +178,7 @@ node_modules/
 bower_components/
 *.log
 
-build/
+# build/
 dist/
 
 exports
