@@ -132,18 +132,27 @@ class FormControl extends React.Component {
 
   render() {
     return (
-      <div class="col-12">
-        <form>
-          <div class="form-group">
-            <label for="starsFormControl">Filter by Michelin-Stars</label>
-            <select class="form-control" id="starsFormControl" onChange={this.handleChange}>
-              <option>All</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-            </select>
+      <div class="row">
+        <div class="col-sm">
+          <div class="col-6">
+            <form>
+              <div class="form-group">
+                <label for="starsFormControl">Filter by Michelin-Stars</label>
+                <select class="form-control" id="starsFormControl" onChange={this.handleChange}>
+                  <option>All</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+            </form>
           </div>
-        </form>
+        </div>
+        <div class="col-sm text-right">
+          <div class="col-12">
+            <h3 class="section-subheading">Last update on deals: 11/02/2018</h3>
+          </div>
+        </div>
       </div>
     );
   }
