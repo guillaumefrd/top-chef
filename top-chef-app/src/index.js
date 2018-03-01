@@ -150,7 +150,7 @@ class FormControl extends React.Component {
         </div>
         <div class="col-sm text-right">
           <div class="col-12">
-            <h3 class="section-subheading">Last update on deals: 11/02/2018</h3>
+            <h3 class="section-subheading">Last update on deals: 01/03/2018</h3>
           </div>
         </div>
       </div>

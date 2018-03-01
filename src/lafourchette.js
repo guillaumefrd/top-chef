@@ -4,6 +4,8 @@ var jsonfile = require('jsonfile');
 
 var countFound = 0;
 
+var restaurantsToExclude = ["Mamatchai", "Le Saint-Laurent", "Leroy's Restaurant"];
+
 //search the restaurant in lafourchette and get the id
 function getId(restaurants, idx) {
   return new Promise(function(resolve, reject){
@@ -22,11 +24,13 @@ function getId(restaurants, idx) {
       }
 
       var results = JSON.parse(body);
+      var found = false;
       results.forEach(function(restaurant_found){
-        if(restaurant.address.postalCode == restaurant_found.address.postal_code){
+        if(restaurant.address.postalCode == restaurant_found.address.postal_code && !restaurantsToExclude.includes(restaurant_found.name) && !found){
           //we found the right restaurant
           restaurant.id = restaurant_found.id;
           restaurant.isFound = true;
+          found = true;
           countFound++;
         }
       });
@@ -49,7 +53,7 @@ exports.searchAll = function(restaurants){
       if(err){
         console.error(err);
       }
-      console.log('***** json done *****');
+      console.log('***** json done (output/3_restaurants_found_list.json) *****');
       console.log();
       console.log('Found ' + countFound + ' restaurants on lafourchette.com (out of ' + restaurants.length + ').')
     })
@@ -119,7 +123,7 @@ exports.getAllDeals = function(restaurants){
       if(err){
         console.error(err);
       }
-      console.log('***** json done *****');
+      console.log('***** json done (output/4_restaurants_promotions_list.json) *****');
     })
   })
 }
@@ -169,7 +173,13 @@ exports.getAllImages = function(restaurants){
       if(err){
         console.error(err);
       }
-      console.log('***** json done *****');
+      console.log('***** json done (output/5_final_restaurants_list.json) *****');
+    })
+    jsonfile.writeFile('../top-chef-app/public/src/5_final_restaurants_list.json', restaurants, {spaces: 2}, function(err){
+      if(err){
+        console.error(err);
+      }
+      console.log('***** json done (top-chef-app/public/src/5_final_restaurants_list.json) *****');
     })
   })
 }
