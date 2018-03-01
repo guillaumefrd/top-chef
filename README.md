@@ -10,9 +10,9 @@ Top Chef is a school project that is described bellow.
 
 Otherwise, you can visit the repository to see what I did. 
 
-You will find all the **server-side** work, including some **web scraping** in the folder **src**.
+You will find all the **server-side** work, including some **web scraping** and **API calls** in the folder **src** *(more information about it on the README inside the folder)*.
 
-The **React** application is in the **top-chef-app** folder. You will find more information about it on the README inside the folder. 
+The **React** application is in the **top-chef-app** folder *(more information about it on the README inside the folder)*.. 
 
 ## Instructions
 
