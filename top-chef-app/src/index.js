@@ -11,7 +11,13 @@ class Grid extends React.Component {
   }
 
   favorite(id) {
-    document.getElementById(id).getElementsByClassName('material-icons')[0].style.color = "#ff0000";
+    var selector = document.getElementById(id);
+    if(selector.getElementsByClassName('material-icons')[0].style.color !== "rgb(255, 0, 0)"){
+      selector.getElementsByClassName('material-icons')[0].style.color = "rgb(255, 0, 0)";
+    } else {
+      selector.getElementsByClassName('material-icons')[0].style.color = "rgb(0,150,136)";
+    }
+
   }
 
   title(restaurant) {
@@ -50,10 +56,9 @@ class Grid extends React.Component {
           {this.renderPromotions(restaurant.promotions)}
         </div>
         <div class="mdl-card__actions mdl-card--border">
-          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" target="_blank" href={restaurant.urls.lafourchette}>More informations</a>
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" target="_blank" href={restaurant.urls.lafourchette}>More information</a>
           <div class="mdl-layout-spacer"></div>
           <button class="mdl-button mdl-button--icon mdl-button--colored" onClick={() => this.favorite(restaurant.id)}><i class="material-icons">favorite</i></button>
-          <button class="mdl-button mdl-button--icon mdl-button--colored"><i class="material-icons">share</i></button>
         </div>
       </div>
     );
@@ -69,7 +74,7 @@ class Grid extends React.Component {
     return (
       <div>
         <div class="col-lg-12 text-center">
-          <h3 class="section-subheading">{this.state.restaurants.length} deals found</h3>
+          <h4>{this.state.restaurants.length} deals found</h4>
         </div>
         <div class="mdl-grid">
           {tab}
