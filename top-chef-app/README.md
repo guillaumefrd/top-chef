@@ -12,9 +12,11 @@ Just click [here](https://guillaumefrd.github.io/top-chef/top-chef-app/build/) t
 
 - Go in the **top-chef-app** folder
 
-- Run `> npm install` 
+- Run:
 
-- Run `> npm start`
+  - `> npm install` 
+
+  - `> npm start`
 
 - It should open your web browser automatically. If not, open it and then open `localhost:3000`
 
