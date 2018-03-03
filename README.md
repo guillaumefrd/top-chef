@@ -16,3 +16,9 @@ Otherwise, you can visit the repository to explore my solution.
 
 1. **[src](https://github.com/guillaumefrd/top-chef/tree/master/src)**: the **server-side** work, including **web scraping** and **API calls**. This is the part where I get all the starred restaurants from Michelin and the deals from LaFourchette *(more information about it on the README inside the folder)*.
 2. **[top-chef-app](https://github.com/guillaumefrd/top-chef/tree/master/top-chef-app)**: the **React** application. This is the part where I display the results on a web page *(more information about it on the README inside the folder)*.
+
+## Screenshots
+
+![screenshot1](https://raw.githubusercontent.com/guillaumefrd/top-chef/master/img/top-chef_screenshot.png)
+![screenshot2](https://raw.githubusercontent.com/guillaumefrd/top-chef/master/img/top-chef_screenshot2.png)
+![screenshot3](https://raw.githubusercontent.com/guillaumefrd/top-chef/master/img/top-chef_screenshot3.png)
