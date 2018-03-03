@@ -8,8 +8,6 @@
 
 ## Good to know
 
-Top Chef is a school project.  
-
 **If you want to see directly the result, just click [here](https://guillaumefrd.github.io/top-chef/top-chef-app/build/).**
 
 Otherwise, you can visit the repository to explore my solution. 
