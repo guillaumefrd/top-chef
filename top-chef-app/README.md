@@ -8,18 +8,16 @@ Just click [here](https://guillaumefrd.github.io/top-chef/top-chef-app/build/) t
 
 ### Developer way 
 
-- Clone the repository 
+- Open the **Node.js** command prompt
 
 - Go in the **top-chef-app** folder
 
-- Open the **Node.js** command prompt
+- Run `> npm install` 
 
-- Run `npm install` 
-
-- Run `npm start`
+- Run `> npm start`
 
 - It should open your web browser automatically. If not, open it and then open `localhost:3000`
 
 ## Good to know
 
-If you want to get the current deals, go to the **src** folder **located at the root of the repository** and read the README.
+If you want to get the current deals, go to the **src** folder **located at the root of the repository** and follow the README.
