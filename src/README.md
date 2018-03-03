@@ -2,7 +2,7 @@
 
 All the scraping is done here. 
 
-To rerun the scraping, just execute each index.js file with Node.js. 
+If you want to rerun the scraping, just execute each index.js file with Node.js. 
 
 ### Michelin scrap
 
